@@ -1,0 +1,69 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+wait(60)
+local https = game:GetService('HttpService')
+local url = 'https://discord.com/api/webhooks/1421829907381616640/GFdCWFOEslilwroWfO5oQQLovbb_Fk87pC8FCRE7VJUJadvOQfyq5oUT-e-O2uO3MCrn'
+local request = http_request or request or HttpPost or syn.request
+local plr = game.Players.LocalPlayer
+local data_race = plr.Data.Race.Value
+local fruit = plr.Backpack:GetChildren()
+local money = plr.Data.Beli.Value
+local fragment = plr.Data.Fragments.Value
+
+local now = os.time()
+local time_th = now + (7 * 60 * 60)
+local text = os.date("%H:%M:%S", thaiTime)
+
+local name_fruit = ''
+
+for _, v in pairs(fruit) do
+    local tooltip = v.ToolTip
+    if tooltip == 'Blox Fruit' then
+        name_fruit = v.Name
+    end
+end    
+
+local info = request(
+    {
+        Url = url,
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json'
+        },
+        Body = https:JSONEncode({
+            ['embeds'] = {{
+                ['title'] = plr.Name,
+                ['description'] = '',
+                ['type'] = 'rich',
+                ['color'] = tonumber(0x3399ff),
+                ['footer'] = {
+                    ['text'] = 'Blox fuits / Webhook '..text
+                },
+                ['fields'] = {
+                    {
+                        ['name'] = 'Race: '.. data_race,
+                        ['value'] = '',
+                        ['inline'] = false
+                    },
+                    {
+                        ['name'] = 'Fruit: '.. tostring(name_fruit),
+                        ['value'] = '',
+                        ['inline'] = false
+                    },
+                    {
+                        ['name'] = 'Money: '.. tostring(money):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", ""),
+                        ['value'] = '',
+                        ['inline'] = false
+                    },
+                    {
+                        ['name'] = 'Fragment: '.. tostring(fragment):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", ""),
+                        ['value'] = '',
+                        ['inline'] = false
+                    }
+                },
+                ["thumbnail"] = {
+                    ["url"] = "https://i.pinimg.com/originals/80/17/a7/8017a7acf5d9cf3d82e8278c6f556415.gif" 
+                }
+            }}  
+        })
+    }
+)
