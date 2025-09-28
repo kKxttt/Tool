@@ -30,7 +30,7 @@ end
 
 local check_race = false
 local data_race = plr.Data.Race.Value
-if data_race == 'Skypiea' or data_race == 'Shark' then
+if data_race == 'Skypiea' or data_race == 'Fishman' then
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('BlackbeardReward', 'Reroll', '2')
     check_race = true
 end
