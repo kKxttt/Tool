@@ -1,5 +1,41 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-wait(60)
+-- wait(120)
+
+
+local plr = game.Players.LocalPlayer
+local backpack = plr.Backpack:GetChildren()
+
+local auto_buy = false
+
+for _, v in pairs(backpack) do
+    tooltip = v.ToolTip
+    if tooltip == 'Blox Fruit' then
+        auto_buy = true
+        print('✅')
+        break
+    end
+end
+
+local check_buy = false
+
+if auto_buy == false then
+
+    local fruit_list = {'Flame-Flame', 'Ice-Ice', 'Sand-Sand', 'Light-Light', 'Dark-Drak'}
+    local random_fruis = fruit_list[math.random(1, #fruit_list)]
+    check_buy = true
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer("PurchaseRawFruit", random_fruis, false)
+
+end
+
+local check_race = false
+local data_race = plr.Data.Race.Value
+if data_race == 'Skypiea' or data_race == 'Shark' then
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('BlackbeardReward', 'Reroll', '2')
+    check_race = true
+end
+
+
 local https = game:GetService('HttpService')
 local url = 'https://discord.com/api/webhooks/1421829907381616640/GFdCWFOEslilwroWfO5oQQLovbb_Fk87pC8FCRE7VJUJadvOQfyq5oUT-e-O2uO3MCrn'
 local request = http_request or request or HttpPost or syn.request
@@ -40,30 +76,46 @@ local info = request(
                 },
                 ['fields'] = {
                     {
-                        ['name'] = 'Race: '.. data_race,
+                        ['name'] = 'Race: '.. '`' ..data_race.. '`',
                         ['value'] = '',
                         ['inline'] = false
                     },
                     {
-                        ['name'] = 'Fruit: '.. tostring(name_fruit),
+                        ['name'] = 'Fruit: '.. '`' ..tostring(name_fruit)..'`',
                         ['value'] = '',
                         ['inline'] = false
                     },
                     {
-                        ['name'] = 'Money: '.. tostring(money):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", ""),
+                        ['name'] = 'Money: '.. '`' ..tostring(money):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")..'`',
                         ['value'] = '',
                         ['inline'] = false
                     },
                     {
-                        ['name'] = 'Fragment: '.. tostring(fragment):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", ""),
+                        ['name'] = 'Fragment: '..'`'.. tostring(fragment):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")..'`',
                         ['value'] = '',
                         ['inline'] = false
-                    }
+                    },
+                    {
+                        ['name'] = 'LOG AUTO BUY FRUIT AND RACE',
+                        ['value'] = '',
+                        ['inline'] = false
+                    },
+                    {
+                        ['name'] = '',
+                        ['value'] = 'Auto-buy -> '.. '`'..tostring(check_buy)..'`',
+                        ['inline'] = false
+                    },
+                    {
+                        ['name'] = '',
+                        ['value'] = ' Check-race -> ' .. '`'..tostring(check_race)..'`',
+                        ['inline'] = false
+                    }                   
+
                 },
                 ["thumbnail"] = {
                     ["url"] = "https://i.pinimg.com/originals/80/17/a7/8017a7acf5d9cf3d82e8278c6f556415.gif" 
                 }
             }}  
         })
-    }
+    } 
 )
