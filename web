@@ -1,12 +1,10 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 wait(120)
 
-
 local plr = game.Players.LocalPlayer
 local backpack = plr.Backpack:GetChildren()
 
 local auto_buy = false
-
 for _, v in pairs(backpack) do
     tooltip = v.ToolTip
     if tooltip == 'Blox Fruit' then
@@ -25,7 +23,6 @@ if auto_buy == false then
     check_buy = true
 
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer("PurchaseRawFruit", random_fruis, false)
-
 end
 
 local check_race = false
@@ -34,7 +31,6 @@ if data_race == 'Skypiea' or data_race == 'Fishman' then
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('BlackbeardReward', 'Reroll', '2')
     check_race = true
 end
-
 
 local https = game:GetService('HttpService')
 local url = 'https://discord.com/api/webhooks/1421829907381616640/GFdCWFOEslilwroWfO5oQQLovbb_Fk87pC8FCRE7VJUJadvOQfyq5oUT-e-O2uO3MCrn'
@@ -47,7 +43,7 @@ local fragment = plr.Data.Fragments.Value
 
 local now = os.time()
 local time_th = now + (7 * 60 * 60)
-local text = os.date("%H:%M:%S", thaiTime)
+local text = os.date("%H:%M:%S", time_th)
 
 local name_fruit = ''
 
