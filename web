@@ -41,9 +41,9 @@ local fruit = plr.Backpack:GetChildren()
 local money = plr.Data.Beli.Value
 local fragment = plr.Data.Fragments.Value
 
-local now = os.time()
--- local time_th = now + (7 * 60 * 60)
-local text = os.date("%H:%M:%S", now)
+local now = os.time(os.date('!*t'))
+local time_th = now + (7 * 60 * 60)
+local text = os.date("%H:%M:%S", time_th)
 
 local name_fruit = ''
 
