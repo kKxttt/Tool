@@ -113,7 +113,7 @@ while wait(120) do
             },
             Body = https:JSONEncode({
                 ['embeds'] = {{
-                    ['title'] = plr.Name..', DDC1',
+                    ['title'] = plr.Name,
                     ['description'] = '',
                     ['type'] = 'rich',
                     ['color'] = tonumber(0x3399ff),
