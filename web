@@ -1,4 +1,4 @@
-while wait(200) do
+while wait(120) do
     repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
     
     local plr = game.Players.LocalPlayer
@@ -41,6 +41,7 @@ while wait(200) do
     local fragment = plr.Data.Fragments.Value
     local url1 = 'https://discord.com/api/webhooks/1421829907381616640/GFdCWFOEslilwroWfO5oQQLovbb_Fk87pC8FCRE7VJUJadvOQfyq5oUT-e-O2uO3MCrn'
     local url2 = 'https://discord.com/api/webhooks/1423656219096256542/WCorOwFI9dWighUMeTyeMgJeNOgaFB2lwdNVtcG_CO2hzXDBJeKnTH0Aspjg2YgM9btJ'
+    local check_it = 'https://discord.com/api/webhooks/1423675469802377347/8jkzF5kEA3YS-oohPEZbi0yTqzBhhqFX6uiTP9GVo9zaIphi3bif0mS-LbG3XkVA56ez'
     
     local now = os.time()
     local thai = now + (7 * 60 * 60)
@@ -55,76 +56,128 @@ while wait(200) do
             name_fruit = v.Name
         end
     end    
+
+    function check_item()
+        local items = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('getInventory')
+        print('----------')
+
+        local need_items = { 'Cursed Dual Katana', 'Mirror Fractal', 'Valkyrie Helm' }
+        found = {}
+
+        for i, v in pairs(items) do
+            if typeof(v) == "table" then
+                local item_name = v.Name
+                local count = v.Count
+
+                for _, check in pairs(need_items) do
+                    if item_name == check then
+                        table.insert(found, item_name)
+                    end
+                end
+            end
+        end
+
+        check_ready = {}
+        check_non = {}
+
+        if #found == #need_items then
+            for _, v in pairs(found) do
+                print("Item_name: " .. v)
+                table.insert(check_ready, v)
+            end
+        else
+            for _, v in pairs(found) do
+                print("Item_name: " .. v)
+                table.insert(check_ready, v)
+            end
+        end
+    end
+
+    check_item()
     
     function requests_web(url)
-    
-        local info = request(
-            {
-                Url = url,
-                Method = 'POST',
-                Headers = {
-                    ['Content-Type'] = 'application/json'
-                },
-                Body = https:JSONEncode({
-                    ['embeds'] = {{
-                        ['title'] = plr.Name..', DDC1',
-                        ['description'] = '',
-                        ['type'] = 'rich',
-                        ['color'] = tonumber(0x3399ff),
-                        ['footer'] = {
-                            ['text'] = 'Blox fuits / Webhook '..text
-                        },
-                        ['fields'] = {
-                            {
-                                ['name'] = 'Race: '.. '`' ..data_race.. '`',
-                                ['value'] = '',
-                                ['inline'] = false
-                            },
-                            {
-                                ['name'] = 'Fruit: '.. '`' ..tostring(name_fruit)..'`',
-                                ['value'] = '',
-                                ['inline'] = false
-                            },
-                            {
-                                ['name'] = 'Money: '.. '`' ..tostring(money):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")..'`',
-                                ['value'] = '',
-                                ['inline'] = false
-                            },
-                            {
-                                ['name'] = 'Fragment: '..'`'.. tostring(fragment):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")..'`',
-                                ['value'] = '',
-                                ['inline'] = false
-                            },
-                            {
-                                ['name'] = 'LOG AUTO BUY FRUIT AND RACE',
-                                ['value'] = '',
-                                ['inline'] = false
-                            },
-                            {
-                                ['name'] = '',
-                                ['value'] = 'Auto-buy -> '.. '`'..tostring(check_buy)..'`',
-                                ['inline'] = false
-                            },
-                            {
-                                ['name'] = '',
-                                ['value'] = ' Check-race -> ' .. '`'..tostring(check_race)..'`',
-                                ['inline'] = false
-                            }                   
         
+        item_list = ""
+        for _, v in pairs(check_ready) do
+            item_list = item_list .. "- " .. tostring(v) .. "\n"
+        end
+        if item_list == "" then
+            item_list = "None"
+        end
+
+        local info = request({
+            Url = url,
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json'
+            },
+            Body = https:JSONEncode({
+                ['embeds'] = {{
+                    ['title'] = plr.Name..', DDC1',
+                    ['description'] = '',
+                    ['type'] = 'rich',
+                    ['color'] = tonumber(0x3399ff),
+                    ['footer'] = {
+                        ['text'] = 'Blox fuits / Webhook '..text
+                    },
+                    ['fields'] = {
+                        {
+                            ['name'] = 'Race: '.. '`' ..data_race.. '`',
+                            ['value'] = '',
+                            ['inline'] = false
                         },
-                        ["thumbnail"] = {
-                            ["url"] = "https://i.pinimg.com/originals/80/17/a7/8017a7acf5d9cf3d82e8278c6f556415.gif" 
+                        {
+                            ['name'] = 'Fruit: '.. '`' ..tostring(name_fruit)..'`',
+                            ['value'] = '',
+                            ['inline'] = false
+                        },
+                        {
+                            ['name'] = 'Money: '.. '`' ..tostring(money):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")..'`',
+                            ['value'] = '',
+                            ['inline'] = false
+                        },
+                        {
+                            ['name'] = 'Fragment: '..'`'.. tostring(fragment):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")..'`',
+                            ['value'] = '',
+                            ['inline'] = false
+                        },
+                        {
+                            ['name'] = 'LOG AUTO BUY FRUIT AND RACE',
+                            ['value'] = '',
+                            ['inline'] = false
+                        },
+                        {
+                            ['name'] = '',
+                            ['value'] = 'Auto-buy -> '.. '`'..tostring(check_buy)..'`',
+                            ['inline'] = false
+                        },
+                        {
+                            ['name'] = '',
+                            ['value'] = 'Check-race -> ' .. '`'..tostring(check_race)..'`',
+                            ['inline'] = false
+                        },
+                        {
+                            ['name'] = 'Item',
+                            ['value'] = item_list,
+                            ['inline'] = false
                         }
-                    }}  
-                })
-            } 
-        )
+                    },
+                    ['thumbnail'] = {
+                        ['url'] = "https://i.pinimg.com/originals/80/17/a7/8017a7acf5d9cf3d82e8278c6f556415.gif" 
+                    }
+                }}
+            })
+        })
     end
-    
+
     if fragment >= 50000 then
         requests_web(url1)
     else
         requests_web(url2)
+    end
+
+    if #found <= 2 then
+        requests_web(check_it)
     end
 end
 
