@@ -61,7 +61,7 @@ while wait(120) do
         local items = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('getInventory')
         print('----------')
 
-        local need_items = { 'Cursed Dual Katana', 'Mirror Fractal', 'Valkyrie Helm', 'Yama', 'Tishita' }
+        local need_items = { 'Cursed Dual Katana', 'Mirror Fractal', 'Valkyrie Helm', 'Yama', 'Tushita' }
         found = {}
 
         for i, v in pairs(items) do
