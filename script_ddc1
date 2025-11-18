@@ -27,7 +27,7 @@ getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
             ["Skull Guitar"] = false,
             ["Valkyrie Helm"] = false,
             ["Mirror Fractal"] = false,
-            ["Cursed Dual Katana"] = false,
+            ["Cursed Dual Katana"] = true,
             ["Upgrade Race V2-V3"] = true,
             ["Auto Pull Lever"] = true,
             ["Shark Anchor"] = false, --- if have cdk,sg,godhuman
@@ -40,7 +40,7 @@ getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
         },
         ["Farm Fragments"] = {
             ["Enabled"]  = true,
-            ["Fragment"] = 100000,
+            ["Fragment"] = 70000,
         },
         ["Auto Chat"] = {
             ["Enabled"] = true,
@@ -51,14 +51,14 @@ getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
             ["Hop Server If Have Player Near"] = false, 
             ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false, 
             ["Hop Find Dough King Get Mirror Fractal"] = false,
-            ["Hop Find Raids Castle [CDK]"] = false,
-            ["Hop Find Cake Queen [CDK]"] = false,
-            ["Hop Find Soul Reaper [CDK]"] = false,
+            ["Hop Find Raids Castle [CDK]"] = true,
+            ["Hop Find Cake Queen [CDK]"] = true,
+            ["Hop Find Soul Reaper [CDK]"] = true,
             ["Hop Find Darkbeard [SG]"] = false,
             ["Hop Find Mirage [ Pull Lever ]"] = true,
         },
         ["Farm Mastery"] = {
-            ["Melee"] = true,
+            ["Melee"] = false,
             ["Sword"] = true,
         },
         ["Buy Haki"] = {
