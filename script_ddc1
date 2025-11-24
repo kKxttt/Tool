@@ -1,26 +1,3 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().ConfigV4 = {
-    ["Account Up Gear"] = {
-    "ayis51fodq71",
-    "fbia66ccji08",
-    "SherriDouglas9532",
-    "InfernoEmber4798",
-    "EnigmaPolar7196",
-    "WinterFlux6296",
-    "LootMagma4489",
-    "EmberMarksman8035",
-    "AmeliaCraftCircuit35",
-    "XavierPeach95"
-    },
-    ["Account Help"] = {
-      "micahkai8_158",
-      "JellyLi0nSky2006"
-
-    },
-    ["Method Kick"] = {
-        ["End Moon"] = true,
-    },
-    ["Auto Join"] = false,
-}
-getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/NewV4Config.lua"))()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))() 
