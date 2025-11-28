@@ -1,20 +1,20 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().ConfigV4 = {
     ["Account Up Gear"] = {
-    "oxmg86dsjk43",
-    "dnavqocz7445",
-    "ezfe30dgnf05",
-    "qxfmfnyu4346",
-    "xrrf81wdvr71",
-    "wzhg19gesw86",
-    "egygovyj1839",
-    "aayh06hqri24",
-    "cuynltyx5646",
-    "sidr70wxyu16"
+    "Flash_Drag0n68",
+    "NoraHyp3r16",
+    "MarieHess423",
+    "DawnCowan933",
+    "ReginaldStokes4",
+    "BrentBlevins61",
+    "RonaldBaker21495",
+    "JustinSapphire2",
+    "JellyMasterSonic56",
+    "MichaelaReese506"
     },
     ["Account Help"] = {
-      "XxJackViperPrismxX",
-      "Xx_GamerGlitchSt0rmy"
+      "micahkai8_158",
+      "JellyLi0nSky2006"
 
     },
     ["Method Kick"] = {
