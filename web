@@ -1,4 +1,4 @@
-while wait(120) do
+while wait(20) do
     repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
     
     local plr = game.Players.LocalPlayer
