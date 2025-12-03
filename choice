@@ -1,0 +1,55 @@
+repeat task.wait(0.1) until game:IsLoaded()
+
+print('Start script')
+
+local data_script1 = {
+    "micahkai8_158",
+    "JellyLi0nSky2006",
+    "Ninja_Surge70",
+    "HaniClawZenithRunner",
+    "XxScyth3ShadowStrik3",
+    "IonBuild3rPrimal",
+    "Thamer_ZOOM2006",
+    "ShahedBladePower",
+    "VortexX_Eagle",
+    "AetherEch0Hunter",
+    "Rumbl3_Strik3r",
+    "N3bulaHunt3rFr0st"
+}
+
+local data_script2 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "JustinAceHunter",
+    "NinjaInferno200567",
+    "St3althN0vaHunt3r",
+    "BlazeRunnerShadow200",
+    "FurySkaterByteStorm2",
+    "FAROUQ_SpectralHunte",
+    "Shah3dN3bulaQuantum7",
+    "ChristineAshen",
+    "PrimalWarp_YT",
+    "Julia_AetherHunter20"
+}
+
+local function isInTable(tbl, value)
+    for _, v in ipairs(tbl) do
+        if v == value then
+            return true
+        end
+    end
+    return false
+end
+
+local playerName = game.Players.LocalPlayer.Name
+
+if isInTable(data_script1, playerName) then
+    print("Script_Kaitun1")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun1"))()
+elseif isInTable(data_script2, playerName) then
+    print("Script_Kaitun2")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun2"))()
+else
+    print("Script_Mode")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_modex"))()
+end
