@@ -5,31 +5,31 @@ print('Start script')
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "Ninja_Surge70",
-    "HaniClawZenithRunner",
-    "XxScyth3ShadowStrik3",
-    "IonBuild3rPrimal",
-    "Thamer_ZOOM2006",
-    "ShahedBladePower",
-    "VortexX_Eagle",
-    "AetherEch0Hunter",
-    "Rumbl3_Strik3r",
-    "N3bulaHunt3rFr0st"
+    "D0naldGalacticRunn3r",
+    "XxIssamB0ltFr0stHunt",
+    "VortexRunnerStormy95",
+    "XXVORT3XHUNT3R_Craz3",
+    "ThamerPlayz2016",
+    "AshenDrift2007",
+    "MaxSurgeNeon",
+    "XxDawnShifterxX2013",
+    "N0vaStrik3LunarRunn3",
+    "LinaChase11"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "JustinAceHunter",
-    "NinjaInferno200567",
-    "St3althN0vaHunt3r",
-    "BlazeRunnerShadow200",
-    "FurySkaterByteStorm2",
-    "FAROUQ_SpectralHunte",
-    "Shah3dN3bulaQuantum7",
-    "ChristineAshen",
-    "PrimalWarp_YT",
-    "Julia_AetherHunter20"
+    "EagleStormy29",
+    "XX_N0vaVantaPixelate",
+    "AetherEagleQuantumRu",
+    "Max_SYNTH",
+    "FuryX_CinderHunter55",
+    "XxSandraOmegaxX",
+    "JumanaNebulaXTiger",
+    "RAWAN_Silver",
+    "AshenPhantomVoid",
+    "Christoph3rRumbl3War"
 }
 
 local function isInTable(tbl, value)
