@@ -5,31 +5,31 @@ print('Start script')
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "PrismA3th3rHunt3r",
-    "Fury_QuantumL3ap",
-    "ArwaDuck",
-    "Tham3rRid3r",
-    "Pr0_MysticHunter",
-    "Shadow_TECHNO2002",
-    "XxN0uranDrag0nInfern",
-    "CyberTechno200959",
-    "Xx_INFERNOSPECTRALHU",
-    "AddisonZoomTwilight"
+    "Xx_DawnCyberRiftRunn",
+    "VortexRunner_Rider20",
+    "Xx_IonLuckyNovaHunt3",
+    "Xx_N0vaC0reS0larRunn",
+    "N0vaMysticRunn3r_YT",
+    "XxAshenGamerSkyxX",
+    "XxVict0riaCinderHunt",
+    "Max_Neon84",
+    "AdelineBaneCraze",
+    "IonBlitzBlazeRunner"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "XxArthur_ShifterxX",
-    "FarisZenithHunter202",
-    "VortexRunnerBane",
-    "XxSamuelShadowStrike",
-    "PrimalCoreGlitch",
-    "Blaz3Runn3rOblivi0nF",
-    "NihalT3chn0YT",
-    "ThamerLegend2003",
-    "Raven_SYNTH2020",
-    "CynthiaLuckyVip3r"
+    "LightZ3nithHunt3r202",
+    "JudyBlizzard",
+    "St0rmyMirageCinderHu",
+    "ShadowStrikeHawkBaco",
+    "Christin3Nova",
+    "XxArrowLunarHunterxX",
+    "XxSalim_Turb0xX2015",
+    "Blaz3LunarRunn3r",
+    "FarisPix3lat3d",
+    "RAVEN_Mirage2009"
 }
 
 -- local data_script3 = {
