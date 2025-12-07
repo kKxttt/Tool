@@ -12,6 +12,6 @@ _G.OneClickSettings = {
     ["Pull Lever"] = false,
     ["Farm Shark Anchor"] = true
 }
-getgenv().Key = "MARU-MS27D-0GTCZ-U4RW-7FH3W-B3AAE"
-getgenv().id = "1078334137074728970"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+(getgenv()).key = "MARULNN0DKPJY0UX4LM6GSH4HD";
+(getgenv()).id = "1078334137074728970";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
