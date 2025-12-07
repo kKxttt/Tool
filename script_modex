@@ -1,3 +1,17 @@
+getgenv().Script_Mode = "Kaitun_Script"
+_G.OneClickSettings = {
+    ["MainIsFarmLevel"] = false,
+    ["LockFruits"] = {
+    },
+    ["MainFruits"] = {
+    },
+    ["RegularFruits"] = {
+    },
+    ["FragmentsCap"] = 50000,
+    ["Upgrade Race"] = false,
+    ["Pull Lever"] = false,
+    ["Farm Shark Anchor"] = true
+}
 getgenv().Key = "MARU-MS27D-0GTCZ-U4RW-7FH3W-B3AAE"
 getgenv().id = "1078334137074728970"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
