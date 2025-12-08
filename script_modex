@@ -57,8 +57,8 @@ getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
             ["Hop Find Mirage [ Pull Lever ]"] = false,
         },
         ["Farm Mastery"] = {
-            ["Melee"] = false,
-            ["Sword"] = false,
+            ["Melee"] = true,
+            ["Sword"] = true,
         },
         ["Buy Haki"] = {
             ["Enhancement"] = false,
