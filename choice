@@ -4,17 +4,17 @@ print('Start script')
 
 local data_script1 = {
     "micahkai8_158",
-    "JellyLi0nSky2006",
+    "JellyLi0nSky2006"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
+    "Xx_GamerGlitchSt0rmy"
 }
 
 local data_script3 = {
     "micahkai8_158",
-    "JellyLi0nSky2006",
+    "JellyLi0nSky2006"
 }
 
 local data_script4 = {
