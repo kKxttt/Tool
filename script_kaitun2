@@ -1,23 +1,26 @@
-_G.Settings_V4 = {
-    ["LockTiers"] = 11, -- เตะตอนเทียร์เท่านั้นหรือมากกว่า ( ออโต้ปิด ระบบรีจอยในสคริปต์ ) ถ้าอยากปิด หรือตัวช่วย T10 ปรับเป็น11 / Kick when tier more than your settings ( If u not want to kick just set to 11 )
-    ["Lever"] = true, -- ออโต้ดึงคันโยก / Auto Pull Lever
-    ["InVIPServ"] = true, -- รีเซิฟให้ฟูลมูนรี / Crash when full moon end
-    ["HelperNameList"] = { -- ตัวช่วยได้ 2 ตัว / Put the helper account name
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().ConfigV4 = {
+    ["Account Up Gear"] = {
+    "SkaterFallenLegend",
+    "LuckySnare2007",
+    "R0gerQueen",
+    "NebulaHunter_SURGE20",
+    "HarithEpicYT",
+    "MoonOblivionNebulaHu",
+    "ViralGigaOrbit",
+    "XxEchoRunn3rCyb3rxX",
+    "Samuel_CinderRunner",
+    "SkaterFr0stHunter201"
+    },
+    ["Account Help"] = {
       "XxJackViperPrismxX",
       "Xx_GamerGlitchSt0rmy"
+
     },
-    ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-    "LightZ3nithHunt3r202",
-    "JudyBlizzard",
-    "St0rmyMirageCinderHu",
-    "ShadowStrikeHawkBaco",
-    "Christin3Nova",
-    "XxArrowLunarHunterxX",
-    "XxSalim_Turb0xX2015",
-    "Blaz3LunarRunn3r",
-    "FarisPix3lat3d",
-    "RAVEN_Mirage2009"
-    }
+    ["Method Kick"] = {
+        ["End Moon"] = true,
+    },
+    ["Auto Join"] = false,
 }
-script_key="FmsOcqOtLzAPCwXrcdBnxbXwzDfZWcTE";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
+getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/NewV4Config.lua"))()
