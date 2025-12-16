@@ -5,16 +5,16 @@ print('Start script')
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "MounirAce",
-    "ThunderBlitzZenithRu",
-    "SmashAlphaRaven2020",
-    "Xx_AriaSp3ctralRunn3",
-    "XxZeroBaconxXYT",
-    "Arr0wShift3r",
-    "XxEmily_P0werxX",
-    "BlazeShadeGalacticHu",
-    "Cind3rHunt3rD3lta201",
-    "XxJudithFlameZenithx"
+    "MounirMoon74",
+    "SanaRiftWalkerSnare",
+    "LunarRunnerEagle2021",
+    "Xx_SkyShadowHunterBu",
+    "SmashC0re2012",
+    "Arthur_Blitz200616",
+    "Xx_PaisleyVenatorBla",
+    "Blaze_ZenithRunner90",
+    "R0gueXDelta",
+    "Phant0mBlazeHunter"
 }
 
 local data_script2 = {
