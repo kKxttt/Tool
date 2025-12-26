@@ -5,21 +5,6 @@ print('Start script')
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "C00kieSt0rm2004",
-    "EzraShadowOrbit",
-    "Craze_Hyper95",
-    "William_Fire94",
-    "Am3liaB3arFox",
-    "DriftEchoPhoenix2007",
-    "TurboHunter201756",
-    "EpicStarZoom2009",
-    "FlashHero200416",
-    "IsaacVort3x10"
-}
-
-local data_script2 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
     "WolfInfernoThunder",
     "Epic_Light200923",
     "HyperIceBlizzard",
@@ -30,6 +15,21 @@ local data_script2 = {
     "C00ki3Bl0ckPanda",
     "LucasFlashUltra",
     "GlitchBlockMaster"
+}
+
+local data_script2 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "C00kieSt0rm2004",
+    "EzraShadowOrbit",
+    "Craze_Hyper95",
+    "William_Fire94",
+    "Am3liaB3arFox",
+    "DriftEchoPhoenix2007",
+    "TurboHunter201756",
+    "EpicStarZoom2009",
+    "FlashHero200416",
+    "IsaacVort3x10"
 }
 
 local data_script3 = {
