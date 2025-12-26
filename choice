@@ -3,64 +3,39 @@ repeat task.wait(0.1) until game:IsLoaded()
 print('Start script')
 
 local data_script1 = {
-    "micahkai8_158",
-    "JellyLi0nSky2006",
-    "JackBlaz3Alpha2009",
-    "MysticAceHunter2022",
-    "Venom_Queen202141",
-    "RogueStormyGlitch201",
-    "Alpha_Cyber76",
-    "AIDEN_Ech0200218",
-    "Skat3rShadowMystic",
-    "BlizzardBaneDawn2019",
-    "Sparkly_Mystic2009YT",
-    "BaconAlpha46"
 }
 
 local data_script2 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
-    "XxPlayzFusionxX20073",
-    "Fusi0nCraft201855",
-    "Blaz3_Echo63",
-    "AquaZ00mGiga",
-    "BearShadow2018_YT",
-    "HannahSt0rmyMax15",
-    "Z3ro_Sparkly201840",
-    "MasonLightBlast2002",
-    "EllieGlitchSpark26",
-    "AceTurb015"
 }
 
 local data_script3 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "BuilderPr0Crystal19",
-    "AvaJelly2008YT",
-    "DancerGolden23",
-    "HazelGh0st201586",
-    "WillowZoom200389",
-    "AlphaTig3rThund3r201",
-    "ArrowRiftNight_YT",
-    "DriftFlashOmega2007",
-    "Crystal_T0xic18",
-    "BaneG0ldenCircuit"
-    
+    "Abigail_Hyp3r21",
+    "Elli3R0gu3C00ki3",
+    "AvaBlad3Primal2023",
+    "Xx_PhoenixVenomPower",
+    "Oliv3rHunt3rClaw2024",
+    "FlashFuryKing52",
+    "BlockOmegaEpic85",
+    "XxJayd3nMaxByt3xX",
+    "XxCraftSkaterxX36_YT",
+    "EzraNovaIce"
 }
 
 local data_script4 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "FireMagicEch02006",
-    "Infern0Turb091",
-    "Aubrey_FURY56",
-    "ArrowDragonJelly2004",
-    "V3nomRogu356",
-    "BlockStreamPro",
-    "AvaT0xic2007_YT",
-    "Drag0nGamerAlpha2015",
-    "XxSilv3r_FURYXX38",
-    "EliArr0wGalaxy2005"
+    "C0d3_Fir380",
+    "RoguePandaKnight30",
+    "Ace_Flick54",
+    "FireVortexDark2023",
+    "FireC00kieCyber",
+    "Bl0ckDrift18",
+    "Shad0wBlad352",
+    "Blaz3Glitch75",
+    "FlickNinja58",
+    "XxFusi0nBladeTurb0xX"
 }
 
 local function isInTable(tbl, value)
