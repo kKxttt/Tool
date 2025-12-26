@@ -7,16 +7,16 @@ _G.Settings_V4 = {
       "JellyLi0nSky2006"
     },
     ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-    "Builder_Pro47",
-    "AmeliaFusion45",
-    "Daniel_Skater29",
-    "GraceBlastLi0n",
-    "RiftLuckyHero2003",
-    "ArrowFury2008YT",
-    "BlizzardPandaOrbit",
-    "Chl0eFusi0nZ00m2003",
-    "DANCER_Byte62",
-    "GigaMinerEagle2024"
+    "JackBlaz3Alpha2009",
+    "MysticAceHunter2022",
+    "Venom_Queen202141",
+    "RogueStormyGlitch201",
+    "Alpha_Cyber76",
+    "AIDEN_Ech0200218",
+    "Skat3rShadowMystic",
+    "BlizzardBaneDawn2019",
+    "Sparkly_Mystic2009YT",
+    "BaconAlpha46"
     }
 }
 script_key="TTUOtBfnHwNbkfMgttXWnCtArNVeKvgD";
