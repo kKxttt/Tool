@@ -3,9 +3,33 @@ repeat task.wait(0.1) until game:IsLoaded()
 print('Start script')
 
 local data_script1 = {
+    "micahkai8_158",
+    "JellyLi0nSky2006",
+    "JackBlaz3Alpha2009",
+    "MysticAceHunter2022",
+    "Venom_Queen202141",
+    "RogueStormyGlitch201",
+    "Alpha_Cyber76",
+    "AIDEN_Ech0200218",
+    "Skat3rShadowMystic",
+    "BlizzardBaneDawn2019",
+    "Sparkly_Mystic2009YT",
+    "BaconAlpha46"
 }
 
 local data_script2 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "XxPlayzFusionxX20073",
+    "Fusi0nCraft201855",
+    "Blaz3_Echo63",
+    "AquaZ00mGiga",
+    "BearShadow2018_YT",
+    "HannahSt0rmyMax15",
+    "Z3ro_Sparkly201840",
+    "MasonLightBlast2002",
+    "EllieGlitchSpark26",
+    "AceTurb015"
 }
 
 local data_script3 = {
