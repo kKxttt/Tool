@@ -3,39 +3,39 @@ repeat task.wait(0.1) until game:IsLoaded()
 print('Start script')
 
 local data_script1 = {
-    "micahkai8_158",
-    "JellyLi0nSky2006",
-    "BearCyberDawn",
-    "AddisonRiftStormy201",
-    "GlitchAceFlash2013",
-    "Flame_Phoenix201729",
-    "EmmaQu33nWraith",
-    "Chl0eBladePlayz2021",
-    "OwenDancerLion2019",
-    "Bl0ckDuck77_YT",
-    "BUILDERSHADOW26_YT",
-    "Blad3Eagl359_YT"
 }
 
 local data_script2 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
-    "Flick_N0va2022",
-    "PRIMAL_Rift201611",
-    "PowerSlime201621",
-    "ArrowCrystal56",
-    "GigaLightStr3am39",
-    "Danc3r_Om3ga200264",
-    "FuryGalaxyNeon2007",
-    "Ech0Pix3lGh0st",
-    "AvaLight201833",
-    "XxDanielSonicxX2014"
 }
 
 local data_script3 = {
+    "micahkai8_158",
+    "JellyLi0nSky2006",
+    "CRYSTALPOW3RMOON2021",
+    "Build3rSkat3r60",
+    "FlickFuryH3ro",
+    "C00kieRiftPixelYT",
+    "CircuitOrbitSilver",
+    "EllaSkyHunter2011",
+    "ByteFlashStarry2013",
+    "EliCraft201522",
+    "DriftCraz3BlockYT",
+    "TurboIc340"
 }
 
 local data_script4 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "XXSOPHIA_TurboxX94",
+    "Br00klynPixelCyber20",
+    "FlashUltra2023YT",
+    "Xx_Chl0eHunterPixela",
+    "XxV0idHazeArr0wxX29",
+    "NightGalaxyBacon11",
+    "GraceDawnN0va",
+    "ByteDragonVortex99",
+    "EmmaDuckKing91",
+    "NovaMax61"
 }
 
 local function isInTable(tbl, value)
