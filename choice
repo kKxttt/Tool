@@ -5,31 +5,31 @@ print('Start script')
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "WolfInfernoThunder",
-    "Epic_Light200923",
-    "HyperIceBlizzard",
-    "EthanRocketLava",
-    "Craze_Pro40",
-    "BladeGh0stCircuit51",
-    "Pix3lRav3nAqua2002YT",
-    "C00ki3Bl0ckPanda",
-    "LucasFlashUltra",
-    "GlitchBlockMaster"
+    "BearCyberDawn",
+    "AddisonRiftStormy201",
+    "GlitchAceFlash2013",
+    "Flame_Phoenix201729",
+    "EmmaQu33nWraith",
+    "Chl0eBladePlayz2021",
+    "OwenDancerLion2019",
+    "Bl0ckDuck77_YT",
+    "BUILDERSHADOW26_YT",
+    "Blad3Eagl359_YT"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "C00kieSt0rm2004",
-    "EzraShadowOrbit",
-    "Craze_Hyper95",
-    "William_Fire94",
-    "Am3liaB3arFox",
-    "DriftEchoPhoenix2007",
-    "TurboHunter201756",
-    "EpicStarZoom2009",
-    "FlashHero200416",
-    "IsaacVort3x10"
+    "Flick_N0va2022",
+    "PRIMAL_Rift201611",
+    "PowerSlime201621",
+    "ArrowCrystal56",
+    "GigaLightStr3am39",
+    "Danc3r_Om3ga200264",
+    "FuryGalaxyNeon2007",
+    "Ech0Pix3lGh0st",
+    "AvaLight201833",
+    "XxDanielSonicxX2014"
 }
 
 local data_script3 = {
