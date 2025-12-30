@@ -3,39 +3,39 @@ repeat task.wait(0.1) until game:IsLoaded()
 print('Start script')
 
 local data_script1 = {
-    "micahkai8_158",
-    "JellyLi0nSky2006",
-    "EagleArr0wDawn2007",
-    "C00kieCircuit76",
-    "Craz3Build3rByt3",
-    "EpicHawkDark2024",
-    "Grac3BlastFox",
-    "ByteTiger82",
-    "Victoria_Cyb3r20",
-    "Arrow_Echo200938",
-    "Li0nSkaterGamer",
-    "BlockSt3althPlayz",
 }
 
 local data_script2 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
-    "EagleStealthRaven49",
-    "AvaPixelatedToxicYT",
-    "AriaHawkShad0w",
-    "CircuitDarkBuilder65",
-    "Br00klynn_SABER10",
-    "XxArrowVortexxX53",
-    "GigaFlam3Rift",
-    "B3arNovaPuls32015",
-    "CarterMagicC00kie",
-    "ArrowFir3201377",
 }
 
 local data_script3 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "Charl0tte_Hawk72",
+    "ZoeToxicBlock91",
+    "BearBuilderOmega2018",
+    "AriaStarrySkater49",
+    "BlizzardGhost92",
+    "Ultra_Rogue17",
+    "GraceProRaven",
+    "XXBLOCK_PandaxX2005",
+    "OliverLuckyBlastYT",
+    "GigaJ3llyPuls3"
 }
 
 local data_script4 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "Luk3Ph03nixVip3r",
+    "Gabri3lRid3rLight",
+    "ChaosByteMagicYT",
+    "AddisonHaz3Craft",
+    "DarkEchoPix3lat3d",
+    "BrooklynFoxAlpha2021",
+    "GraceZeroFire41YT",
+    "Blizzard_Giga65",
+    "Chill_Ven0m79",
+    "Craft_Light57YT"
 }
 
 local function isInTable(tbl, value)
