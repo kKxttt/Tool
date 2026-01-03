@@ -7,17 +7,17 @@ _G.Settings_V4 = {
       "JellyLi0nSky2006"
     },
     ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-    "Charl0tte_Hawk72",
-    "ZoeToxicBlock91",
-    "BearBuilderOmega2018",
-    "AriaStarrySkater49",
-    "BlizzardGhost92",
-    "Ultra_Rogue17",
-    "GraceProRaven",
-    "XXBLOCK_PandaxX2005",
-    "OliverLuckyBlastYT",
-    "GigaJ3llyPuls3"
+    "NoahAqua202252",
+    "Grays0nCha0s87",
+    "MichaelLavaMax2021",
+    "GigaGhostThunder2024",
+    "Byt3_N3on46",
+    "Xx_Isab3llaArrowHaz3",
+    "XX_ScarlettRocketGal",
+    "DanielGalaxyShadow20",
+    "Xx_ScarlettMoonVenom",
+    "Addis0nF0xPixel20214"
     }
 }
-script_key="TTUOtBfnHwNbkfMgttXWnCtArNVeKvgD";
+script_key="VPjruoWjGsZylOWIsoUnvRinNgAIBoyN";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
