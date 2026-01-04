@@ -3,20 +3,20 @@ _G.Settings_V4 = {
     ["Lever"] = true, -- ออโต้ดึงคันโยก / Auto Pull Lever
     ["InVIPServ"] = true, -- รีเซิฟให้ฟูลมูนรี / Crash when full moon end
     ["HelperNameList"] = { -- ตัวช่วยได้ 2 ตัว / Put the helper account name
-      "XxJackViperPrismxX",
-      "Xx_GamerGlitchSt0rmy"
+      "micahkai8_158",
+      "JellyLi0nSky2006"
     },
     ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-    "AddisonChas399",
-    "DawnFlash200586",
-    "ArrowFir3Dark",
-    "Build3rChas378",
-    "Blaz3MysticInf3rno97",
-    "ClawGoldenBlizzard20",
-    "XxFr0st_DriftxX2004",
-    "SaberBuilderSkater22",
-    "Addison_STARRY91",
-    "DancerBuilder201379"
+    "ChillStormVenom56",
+    "GhostPowerZoom201921",
+    "Bac0nShad0wStar2013",
+    "BrooklynRogueSilver8",
+    "Cart3rGalaxy35",
+    "EagleHawkStorm2022",
+    "Aubr3yIc3H3r0",
+    "XxGabrielViperDriftx",
+    "BlockInfernoMax2024",
+    "EliArrow200469"
     }
 }
 script_key="VPjruoWjGsZylOWIsoUnvRinNgAIBoyN";
