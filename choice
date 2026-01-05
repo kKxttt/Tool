@@ -2,38 +2,46 @@ repeat task.wait(0.1) until game:IsLoaded()
 
 print("Start script")
 
+    -- "micahkai8_158",
+    -- "JellyLi0nSky2006",
+
+    -- "XxJackViperPrismxX",
+    -- "Xx_GamerGlitchSt0rmy",
+
 local data_script1 = {
-    "micahkai8_158",
-    "JellyLi0nSky2006",
-    "Ech0BlizzardInf3rn02",
-    "EpicHyper201146",
-    "Blizzard_Chill201984",
-    "ByteWolf200496",
-    "BrooklynnFoxViper202",
-    "JaxonFuryChaos2021",
-    "PulseBlizzardCookieY",
-    "FlashStreamCrystal92",
-    "BlizzardDrag0nLight",
-    "Eagl3StarBl0ck"
 }
 
 local data_script2 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
-    "IsaacLavaJ3lly",
-    "EthanMaxDark2023",
-    "Xx_SebastianGhostFir",
-    "XxPlayzLionDanc3rxX",
-    "SHAD0W_Sky82",
-    "Inferno_Gamer201476",
-    "NeonOmegaClaw2013",
-    "AbigailR0gue10",
-    "EmmaIcePrism202165",
-    "InfernoFlashSparkly"
 }
 
-local data_script3 = {}
-local data_script4 = {}
+local data_script3 = {
+    "micahkai8_158",
+    "JellyLi0nSky2006",
+    "CharlotteRogueFrost2",
+    "ChaseLion202035",
+    "AvaPlayzArrow200357",
+    "EzraCraftPuls3",
+    "InfernoGlitchBane201",
+    "ChloeWolfTurbo2008",
+    "Chase_GHOST78",
+    "Charlotte_Hero44",
+    "Charl0tteThunderAlph",
+    "Chase_TURBO54"
+}
+local data_script4 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "Chl0eBlizzardDancer",
+    "AlexanderRocketStar2",
+    "JaydenHunterChill201",
+    "LunaCircuitVenom78",
+    "Charlott3LionNinja90",
+    "WilliamPrism201269",
+    "ClawSlimeLion2008",
+    "BaconHunterCraze2024",
+    "BUILDERHAZEJELLY_YT",
+    "Xx_Gabri3lFusionBloc"
+}
 
 local function isInTable(tbl, value)
     for i, v in ipairs(tbl) do
