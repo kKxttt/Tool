@@ -1,6 +1,6 @@
 repeat task.wait(0.1) until game:IsLoaded()
 
-print('Start script')
+print("Start script")
 
 local data_script1 = {
     "micahkai8_158",
@@ -32,14 +32,11 @@ local data_script2 = {
     "InfernoFlashSparkly"
 }
 
-local data_script3 = {
-}
-
-local datascript4 = {
-}
+local data_script3 = {}
+local data_script4 = {}
 
 local function isInTable(tbl, value)
-    for , v in ipairs(tbl) do
+    for i, v in ipairs(tbl) do
         if v == value then
             return true
         end
@@ -65,4 +62,5 @@ else
     print("Script_Mode")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_modex"))()
 end
+
 print(playerName)
