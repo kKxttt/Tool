@@ -1,0 +1,74 @@
+repeat task.wait(0.1) until game:IsLoaded()
+
+print("Start script")
+
+    -- "micahkai8_158",
+    -- "JellyLi0nSky2006",
+
+    -- "XxJackViperPrismxX",
+    -- "Xx_GamerGlitchSt0rmy",
+
+local data_script1 = {
+}
+
+local data_script2 = {
+}
+
+local data_script3 = {
+    "micahkai8_158",
+    "JellyLi0nSky2006",
+    "CharlotteRogueFrost2",
+    "ChaseLion202035",
+    "AvaPlayzArrow200357",
+    "EzraCraftPuls3",
+    "InfernoGlitchBane201",
+    "ChloeWolfTurbo2008",
+    "Chase_GHOST78",
+    "Charlotte_Hero44",
+    "Charl0tteThunderAlph",
+    "Chase_TURBO54"
+}
+local data_script4 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "Chl0eBlizzardDancer",
+    "AlexanderRocketStar2",
+    "JaydenHunterChill201",
+    "LunaCircuitVenom78",
+    "Charlott3LionNinja90",
+    "WilliamPrism201269",
+    "ClawSlimeLion2008",
+    "BaconHunterCraze2024",
+    "BUILDERHAZEJELLY_YT",
+    "Xx_Gabri3lFusionBloc"
+}
+
+local function isInTable(tbl, value)
+    for i, v in ipairs(tbl) do
+        if v == value then
+            return true
+        end
+    end
+    return false
+end
+
+local playerName = game.Players.LocalPlayer.Name
+
+if isInTable(data_script1, playerName) then
+    print("Script_Kaitun1")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun1"))()
+elseif isInTable(data_script2, playerName) then
+    print("Script_Kaitun2")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun2"))()
+elseif isInTable(data_script3, playerName) then
+    print("Script_Kaitun3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun3"))()
+elseif isInTable(data_script4, playerName) then
+    print("Script_Kaitun4")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun4"))()
+else
+    print("Script_Mode")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_modex"))()
+end
+
+print(playerName)
