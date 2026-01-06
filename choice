@@ -9,38 +9,38 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
+    "micahkai8_158",
+    "JellyLi0nSky2006",
+    "BlizzardH3roWraith20",
+    "Puls3_FROST202152",
+    "GraceEagleCraze2009",
+    "XxPlayz_SonicxX2023",
+    "XxAubr3yPow3rToxicxX",
+    "Brooklyn_PANDA57",
+    "Ghost_Haze200699",
+    "GraceFox202444",
+    "ByteFoxPixel27",
+    "BlizzardSilverChaos3"
 }
 
 local data_script2 = {
+    "XxJackViperPrismxX",
+    "Xx_GamerGlitchSt0rmy",
+    "ArrowStormPow3r2020",
+    "XxJ3llyArrowBan3xX20",
+    "Aiden_SPARK202384YT",
+    "Jayd3nByt3Str3am2011",
+    "XxCrystalAc3xX2011",
+    "ChloeGlitchPlayz2015",
+    "RileyViper202097",
+    "XxPlayzFirexX200431",
+    "EpicHeroBlock2019",
+    "InfernoMoonPower2007"
 }
 
 local data_script3 = {
-    "micahkai8_158",
-    "JellyLi0nSky2006",
-    "CharlotteRogueFrost2",
-    "ChaseLion202035",
-    "AvaPlayzArrow200357",
-    "EzraCraftPuls3",
-    "InfernoGlitchBane201",
-    "ChloeWolfTurbo2008",
-    "Chase_GHOST78",
-    "Charlotte_Hero44",
-    "Charl0tteThunderAlph",
-    "Chase_TURBO54"
 }
 local data_script4 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
-    "Chl0eBlizzardDancer",
-    "AlexanderRocketStar2",
-    "JaydenHunterChill201",
-    "LunaCircuitVenom78",
-    "Charlott3LionNinja90",
-    "WilliamPrism201269",
-    "ClawSlimeLion2008",
-    "BaconHunterCraze2024",
-    "BUILDERHAZEJELLY_YT",
-    "Xx_Gabri3lFusionBloc"
 }
 
 local function isInTable(tbl, value)
