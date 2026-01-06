@@ -11,31 +11,31 @@ print("Start script")
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "BlizzardH3roWraith20",
-    "Puls3_FROST202152",
-    "GraceEagleCraze2009",
-    "XxPlayz_SonicxX2023",
-    "XxAubr3yPow3rToxicxX",
-    "Brooklyn_PANDA57",
-    "Ghost_Haze200699",
-    "GraceFox202444",
-    "ByteFoxPixel27",
-    "BlizzardSilverChaos3"
+    "Sab3rPrimal200347",
+    "HenryTurboRaven29",
+    "XxAubreyHunterChaosx",
+    "AlexanderCraftCode31",
+    "Alpha_Night200447",
+    "XxAubreyEchoTurboxX",
+    "Ghost_PLAYZ96",
+    "XxPixelatedSparkPlay",
+    "XxZ00mM00nKnightxX",
+    "GhostTigerBuilder87"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "ArrowStormPow3r2020",
-    "XxJ3llyArrowBan3xX20",
-    "Aiden_SPARK202384YT",
-    "Jayd3nByt3Str3am2011",
-    "XxCrystalAc3xX2011",
-    "ChloeGlitchPlayz2015",
-    "RileyViper202097",
-    "XxPlayzFirexX200431",
-    "EpicHeroBlock2019",
-    "InfernoMoonPower2007"
+    "PrismGigaRogu3",
+    "BladeGamerStarry2007",
+    "B3arLuckyPow3r82",
+    "DanielBlockEpic2024Y",
+    "EthanFusionClaw2003",
+    "Al3xand3r_R0gu32023",
+    "CarterPandaToxic",
+    "AlphaZapEch02020",
+    "JaydenRavenBlastYT",
+    "HenryFusion36"
 }
 
 local data_script3 = {
