@@ -11,34 +11,46 @@ print("Start script")
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "V0idZ3r0S0nic",
-    "FlickWolfFir3",
-    "Am3lia_St0rmy2006",
-    "Daniel_Circuit200990",
-    "LeviKingSlime2002",
-    "CARTER_Magic17",
-    "CrazeFrostVenom20106",
-    "Skater_Aqua66",
-    "CircuitZap201580",
-    "Claw_Sky201343"
+    "AbigailBlastPanda200",
+    "AddisonQueenOmega202",
+    "Am3liaArrow201570",
+    "AmeliaFrostBacon2024",
+    "Aubr3yZap24",
+    "Aubrey_Fusion37",
+    "Aurora_Playz2017YT",
+    "AuroraRiftFusion2016",
+    "B3astBlad395",
+    "BlizzardZeroRocket24"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "PrismGigaRogu3",
-    "BladeGamerStarry2007",
-    "B3arLuckyPow3r82",
-    "DanielBlockEpic2024Y",
-    "EthanFusionClaw2003",
-    "Al3xand3r_R0gu32023",
-    "CarterPandaToxic",
-    "AlphaZapEch02020",
-    "JaydenRavenBlastYT",
-    "HenryFusion36"
+    "Byt3Chaos51",
+    "CarterGalaxy2012YT",
+    "ChaosDrift200774",
+    "CharlotteSonic2012YT",
+    "ChaseMoonToxic76",
+    "Chill_N0va202264",
+    "ChillZer0Fury",
+    "CircuitPixelRift95",
+    "CircuitR0cketVen0m_Y",
+    "DragonCod3Dark"
 }
 
 local data_script3 = {
+    "Scarlett_Craze201887",
+    "Layla_ZER024",
+    "DragonCookie200942",
+    "EaglePulse98",
+    "EchoFuryDuck2011",
+    "Elijah_Crystal200392",
+    "EllaFlam3Tig3r2014",
+    "EllaNe0n62",
+    "EllieEagleOrbit53",
+    "EthanTiger37",
+    "EvelynCrystalSt0rmy",
+    "EZRA_Shad0w202098"
 }
 local data_script4 = {
 }
