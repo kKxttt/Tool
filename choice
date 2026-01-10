@@ -11,48 +11,48 @@ print("Start script")
 local data_script1 = {
     "micahkai8_158",
     "JellyLi0nSky2006",
-    "AbigailBlastPanda200",
-    "AddisonQueenOmega202",
-    "Am3liaArrow201570",
-    "AmeliaFrostBacon2024",
-    "Aubr3yZap24",
-    "Aubrey_Fusion37",
-    "Aurora_Playz2017YT",
-    "AuroraRiftFusion2016",
-    "B3astBlad395",
-    "BlizzardZeroRocket24"
+    "EzraNightAqua2019",
+    "FrostFire201846",
+    "FuryStreamFlash84",
+    "Fusi0nKnight201435",
+    "Gabri3lFrostChill202",
+    "GabrielCodeZero2022",
+    "GraceStarry91",
+    "HannahCrazePixel2011",
+    "HARPER_Epic94",
+    "HarperPower202496"
 }
 
 local data_script2 = {
     "XxJackViperPrismxX",
     "Xx_GamerGlitchSt0rmy",
-    "Byt3Chaos51",
-    "CarterGalaxy2012YT",
-    "ChaosDrift200774",
-    "CharlotteSonic2012YT",
-    "ChaseMoonToxic76",
-    "Chill_N0va202264",
-    "ChillZer0Fury",
-    "CircuitPixelRift95",
-    "CircuitR0cketVen0m_Y",
-    "DragonCod3Dark"
+    "HawkBlizzard33",
+    "Haz3l_J3lly80",
+    "HunterFlickTiger2017",
+    "HunterVenomSlime2024",
+    "IsaacEcho201156",
+    "IsabellaLava12",
+    "JACK_Gh0st45",
+    "Jacks0nEch0S0nic2015",
+    "Jacks0nW0lfFusi0n201",
+    "Jayden_VORTEX72"
 }
 
 local data_script3 = {
     "Scarlett_Craze201887",
-    "DragonCookie200942",
-    "EaglePulse98",
-    "EchoFuryDuck2011",
-    "Elijah_Crystal200392",
-    "EllaFlam3Tig3r2014",
-    "EllaNe0n62",
-    "EllieEagleOrbit53",
-    "EthanTiger37",
-    "EvelynCrystalSt0rmy",
-    "EZRA_Shad0w202098"
+    "Layla_ZER024",
+    "JellyLavaBlade95",
+    "JellySt0rmUltra2003",
+    "Julian_Z3ro71YT",
+    "Kayl33Arrow56",
+    "KayleeEpicHawk2016",
+    "KnightSparkStar44",
+    "L3viFlick74",
+    "LaylaPandaFlick2017",
+    "LaylaVenomPulse26",
+    "LeviKingSparkly2007"
 }
 local data_script4 = {
-    "Layla_ZER024"
 }
 
 local function isInTable(tbl, value)
