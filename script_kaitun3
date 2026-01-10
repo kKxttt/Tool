@@ -1,23 +1,23 @@
 _G.Settings_V4 = {
-    ["LockTiers"] = 11, -- เตะตอนเทียร์เท่านั้นหรือมากกว่า ( ออโต้ปิด ระบบรีจอยในสคริปต์ ) ถ้าอยากปิด หรือตัวช่วย T10 ปรับเป็น11 / Kick when tier more than your settings ( If u not want to kick just set to 11 )
+    ["LockTiers"] = 11,
     ["Lever"] = true, -- ออโต้ดึงคันโยก / Auto Pull Lever
     ["InVIPServ"] = true, -- รีเซิฟให้ฟูลมูนรี / Crash when full moon end
     ["HelperNameList"] = { -- ตัวช่วยได้ 2 ตัว / Put the helper account name
-      "micahkai8_158",
-      "JellyLi0nSky2006"
+        "Scarlett_Craze201887",
+        "Layla_ZER024"
     },
     ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-    "CharlotteRogueFrost2",
-    "ChaseLion202035",
-    "AvaPlayzArrow200357",
-    "EzraCraftPuls3",
-    "InfernoGlitchBane201",
-    "ChloeWolfTurbo2008",
-    "Chase_GHOST78",
-    "Charlotte_Hero44",
-    "Charl0tteThunderAlph",
-    "Chase_TURBO54"
+        "DragonCookie200942",
+        "EaglePulse98",
+        "EchoFuryDuck2011",
+        "Elijah_Crystal200392",
+        "EllaFlam3Tig3r2014",
+        "EllaNe0n62",
+        "EllieEagleOrbit53",
+        "EthanTiger37",
+        "EvelynCrystalSt0rmy",
+        "EZRA_Shad0w202098"
     }
 }
 script_key="VPjruoWjGsZylOWIsoUnvRinNgAIBoyN";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))() 
