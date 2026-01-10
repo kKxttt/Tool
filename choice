@@ -40,7 +40,6 @@ local data_script2 = {
 
 local data_script3 = {
     "Scarlett_Craze201887",
-    "Layla_ZER024",
     "DragonCookie200942",
     "EaglePulse98",
     "EchoFuryDuck2011",
@@ -53,6 +52,7 @@ local data_script3 = {
     "EZRA_Shad0w202098"
 }
 local data_script4 = {
+    "Layla_ZER024"
 }
 
 local function isInTable(tbl, value)
