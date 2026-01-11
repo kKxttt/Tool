@@ -9,12 +9,48 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
+        "ByteVenomHero2002",
+        "Harp3rWraithRift",
+        "HawkBlizzard33",
+        "Haz3l_J3lly80",
+        "HunterFlickTiger2017",
+        "HunterVenomSlime2024",
+        "IsaacEcho201156",
+        "IsabellaLava12",
+        "JACK_Gh0st45",
+        "JellyLi0nSky2006",
+        "Jacks0nEch0S0nic2015",
+        "micahkai8_158"
 }
 
 local data_script2 = {
+        "XxJackViperPrismxX",
+        "Xx_GamerGlitchSt0rmy",
+        "Jacks0nW0lfFusi0n201",
+        "Jayden_VORTEX72",
+        "JellyLavaBlade95",
+        "JellySt0rmUltra2003",
+        "Julian_Z3ro71YT",
+        "Kayl33Arrow56",
+        "Kaylee_Gh0st2024",
+        "KayleeEpicHawk2016",
+        "KnightSparkStar44",
+        "L0gan_Om3ga2002"
 }
 
 local data_script3 = {
+        "L3viFlick74",
+        "LaylaPandaFlick2017",
+        "LaylaVenomPulse26",
+        "LeviKingSparkly2007",
+        "LiamChillCooki3",
+        "LiamSkater200246",
+        "Logan_Panda200747",
+        "Luk3Pix3l75",
+        "Luna_MASTER200870",
+        "Magic_ORBIT34",
+        "Scarlett_Craze201887",
+        "VictoriaStream200475"
 }
 local data_script4 = {
 }
