@@ -9,36 +9,48 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-    "micahkai8_158",
-    "JellyLi0nSky2006",
-    "BlizzardH3roWraith20",
-    "Puls3_FROST202152",
-    "GraceEagleCraze2009",
-    "XxPlayz_SonicxX2023",
-    "XxAubr3yPow3rToxicxX",
-    "Brooklyn_PANDA57",
-    "Ghost_Haze200699",
-    "GraceFox202444",
-    "ByteFoxPixel27",
-    "BlizzardSilverChaos3"
+        "MiaCookie200998",
+        "MiaSlime2017YT",
+        "N0raCircuitTiger2011",
+        "N0vaZapRift39",
+        "NIGHT_Rav3n200668",
+        "NinjaTurboMax59",
+        "NoahBearBlizzard2011",
+        "Nora_Viper202123",
+        "NovaGhostDawn2018",
+        "Oliver_Knight43",
+        "micahkai8_158",
+        "JellyLi0nSky2006"
 }
 
 local data_script2 = {
-    "XxJackViperPrismxX",
-    "Xx_GamerGlitchSt0rmy",
-    "ArrowStormPow3r2020",
-    "XxJ3llyArrowBan3xX20",
-    "Aiden_SPARK202384YT",
-    "Jayd3nByt3Str3am2011",
-    "XxCrystalAc3xX2011",
-    "ChloeGlitchPlayz2015",
-    "RileyViper202097",
-    "XxPlayzFirexX200431",
-    "EpicHeroBlock2019",
-    "InfernoMoonPower2007"
+        "XxJackViperPrismxX",
+        "Xx_GamerGlitchSt0rmy",
+        "Om3ga_Dark60",
+        "PandaLegendSt0rmy",
+        "PandaSt0rmyFlash2021",
+        "Pangpreame7MEu",
+        "PangpreampkVUF",
+        "PangpreamT3oI2",
+        "PrismGalaxyLava20186",
+        "Puls3Gam3r68",
+        "Qu33nVip3rDawn29",
+        "RavenInfernoVoid74"
 }
 
 local data_script3 = {
+        "Riley_FOX201066",
+        "S3bastianStarPuls338",
+        "SamuelDuck200473",
+        "SamuelNeonStream2022",
+        "Savannah_KING201084",
+        "Savannah_Pulse24",
+        "ScarlettOmega25",
+        "SebastianR0gueMagic",
+        "ShadowBlad3202272",
+        "SilverClawChill2020",
+        "Scarlett_Craze201887",
+        "VictoriaStream200475"
 }
 local data_script4 = {
 }
