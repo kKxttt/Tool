@@ -9,16 +9,16 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "SkaterR0gueIce2015",
-        "SparkNightLava2005",
-        "StormWolfEagl3",
-        "T0xicPh0enixLi0n",
-        "T0xicStealthTurb014",
-        "Thunder_Blizzard96",
-        "ThunderPandaDark2020",
-        "VictoriaZero55",
-        "ViperStreamJelly58",
-        "VoidFlashCrystal2010",
+        "XxHeroBaconSkyxX79",
+        "XXHUNTER_HeroxX31",
+        "XxInfernoGigaxX2012",
+        "XxJacks0nP0w3rBlad3x",
+        "XxL3g3ndMoonMagicxX",
+        "XxLayla_CrystalxX26",
+        "XxLeviKnightxX201285",
+        "XxLightHaz3GlitchxX2",
+        "XxLoganRiderFlashxX",
+        "XxMiner_GalaxyxX32",
         "micahkai8_158",
         "JellyLi0nSky2006"
 }
@@ -26,29 +26,26 @@ local data_script1 = {
 local data_script2 = {
         "XxJackViperPrismxX",
         "Xx_GamerGlitchSt0rmy",
-        "WilliamHyperMaster31",
-        "Xx_BlizzardFlameOmeg",
-        "Xx_Charlott3ProPow3r",
-        "Xx_Infern0Bac0nCraze",
-        "Xx_MysticPandaHunt3r",
-        "Xx_SebastianPulseSli",
-        "XxAquaAc3PrimalxX67",
-        "XxAquaR0guexX2006",
-        "XxAur0raChillHawkxX2",
-        "XxChaosGamerRiftxX36"
+        "XxOliviaBlazeFlickxX",
+        "XxPandaVortexFlickxX",
+        "XxPho3nixPandaSparkx",
+        "XxPulse_TurboxX65",
+        "XxRileyPrismxX201466",
+        "XxRocketFlashxX20082",
+        "XxStarInf3rnoPow3rxX",
+        "XxStealthStreamxX33",
+        "XxStormCodexX200424",
+        "XxThunderNightEaglex"
 }
 
 local data_script3 = {
-        "XxCharl0tteSaberxX25",
-        "XxDrag0nN0vaEch0xX",
-        "XxElijahFlashxX20102",
-        "XxEllieRiftNe0nxX",
-        "XxFir3GhostSlim3xX",
-        "XxGold3nRock3tHawkxX",
-        "XxGrace_RocketxX30",
-        "XxHannahFlashNightxX",
-        "XXHAZ3INF3RNOXX_YT",
-        "XxHazeLionOrbitxX202",
+        "XxTurboNinjaLavaxX",
+        "XxVortexSaberBaconxX",
+        "XxZoeLavaUltraxX",
+        "Z0eFuryGamer",
+        "ZeroCrazeStealth",
+        "PangpreamhKoIR",
+        "Pangpreamykg2u",
         "Scarlett_Craze201887",
         "VictoriaStream200475"
 }
