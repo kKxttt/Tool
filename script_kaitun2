@@ -7,17 +7,17 @@ _G.Settings_V4 = {
         "Xx_GamerGlitchSt0rmy"
     },
     ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-        "Om3ga_Dark60",
-        "PandaLegendSt0rmy",
-        "PandaSt0rmyFlash2021",
-        "Pangpreame7MEu",
-        "PangpreampkVUF",
-        "PangpreamT3oI2",
-        "PrismGalaxyLava20186",
-        "Puls3Gam3r68",
-        "Qu33nVip3rDawn29",
-        "RavenInfernoVoid74"
+        "WilliamHyperMaster31",
+        "Xx_BlizzardFlameOmeg",
+        "Xx_Charlott3ProPow3r",
+        "Xx_Infern0Bac0nCraze",
+        "Xx_MysticPandaHunt3r",
+        "Xx_SebastianPulseSli",
+        "XxAquaAc3PrimalxX67",
+        "XxAquaR0guexX2006",
+        "XxAur0raChillHawkxX2",
+        "XxChaosGamerRiftxX36"
     }
 }
 script_key="VPjruoWjGsZylOWIsoUnvRinNgAIBoyN";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))() 
