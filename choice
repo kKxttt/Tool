@@ -9,16 +9,16 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "XxHeroBaconSkyxX79",
-        "XXHUNTER_HeroxX31",
-        "XxInfernoGigaxX2012",
-        "XxJacks0nP0w3rBlad3x",
-        "XxL3g3ndMoonMagicxX",
-        "XxLayla_CrystalxX26",
-        "XxLeviKnightxX201285",
-        "XxLightHaz3GlitchxX2",
-        "XxLoganRiderFlashxX",
-        "XxMiner_GalaxyxX32",
+        "IsaacHazeZ00m57",
+        "XxKingTurb0Li0nxX",
+        "Aubr3yNight85",
+        "XxEv3lynDarkVoidxX",
+        "XxOliviaR0ck3tLavaxX",
+        "SaberBeastChill2005",
+        "HazelFlickStar",
+        "StormyWraithMax",
+        "ZoeCrystalIce",
+        "GlitchSt0rmy71",
         "micahkai8_158",
         "JellyLi0nSky2006"
 }
@@ -26,26 +26,29 @@ local data_script1 = {
 local data_script2 = {
         "XxJackViperPrismxX",
         "Xx_GamerGlitchSt0rmy",
-        "XxOliviaBlazeFlickxX",
-        "XxPandaVortexFlickxX",
-        "XxPho3nixPandaSparkx",
-        "XxPulse_TurboxX65",
-        "XxRileyPrismxX201466",
-        "XxRocketFlashxX20082",
-        "XxStarInf3rnoPow3rxX",
-        "XxStealthStreamxX33",
-        "XxStormCodexX200424",
-        "XxThunderNightEaglex"
+        "Grays0nMax201540",
+        "ZaydenStormyAceYT",
+        "LightWraith202479",
+        "AsherGlitchEagle88",
+        "JULIANHUNTER2007_YT",
+        "WraithP0wer200968",
+        "BaconSparkly201579",
+        "Aur0raP0werBane",
+        "TurboH3roBacon",
+        "RIFT_Hunter200684"
 }
 
 local data_script3 = {
-        "XxTurboNinjaLavaxX",
-        "XxVortexSaberBaconxX",
-        "XxZoeLavaUltraxX",
-        "Z0eFuryGamer",
-        "ZeroCrazeStealth",
-        "PangpreamhKoIR",
-        "Pangpreamykg2u",
+        "ZoomMax13",
+        "XxJackIc3xX2014",
+        "LiamR0gu3200684",
+        "RiftNinja200924",
+        "XxPaisl3y_LUCKYXX90",
+        "FlickDuckSkater2013",
+        "FrostKnight200897",
+        "Xx_Aur0raCrystalNe0n",
+        "LeviHunterPixel81",
+        "ElijahPho3nix2007",
         "Scarlett_Craze201887",
         "VictoriaStream200475"
 }
