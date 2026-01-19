@@ -9,16 +9,16 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "Jayd3nBuild3r10",
-        "Xx_SparkVortexStream",
-        "EV3LYN_Fox2013",
-        "JulianPrimalUltra200",
-        "Byt3ClawFox",
-        "BrooklynChaosBane",
-        "SparklyN3onSlim3",
-        "MateoRiftCraft2018",
-        "DawnSonic201255",
-        "HazePro82",
+        "NightSkyKing2010",
+        "PrismNeonShadow",
+        "Asher_Stormy43",
+        "Stealth_Haze46",
+        "EpicBl0ckCha0s",
+        "XxW0lfDrag0nxX2020",
+        "OrbitPh0enixPrism",
+        "N0ra_INFERN02003",
+        "Turb0GlitchZ00m",
+        "XxJackBladexX2019YT",
         "micahkai8_158",
         "JellyLi0nSky2006"
 }
@@ -26,33 +26,36 @@ local data_script1 = {
 local data_script2 = {
         "XxJackViperPrismxX",
         "Xx_GamerGlitchSt0rmy",
-        "SamuelShad0wThunder2",
-        "Jax0nR0ck3t86",
-        "KnightChaseFrost",
-        "N0ra_INFERN02003",
-        "GigaKnightSab3r2018",
-        "MagicJ3llyChill",
-        "GALAXY_Circuit201139",
-        "XxNinjaThund3rZ3roxX",
-        "NovaSaberStormYT",
-        "DuckNightChase201284"
+        "VenomHunterCyber51",
+        "HannahFoxVort3x2011",
+        "HunterDawnHyper2004",
+        "Br00klynnSt3alth2024",
+        "Sparkly_Moon201333",
+        "Grac3Haz3Craz32017",
+        "MateoFlamePrimal22",
+        "LavaQueenLucky",
+        "XxAce_CookiexX2023",
+        "ToxicBlockFrost2016"
 }
 
 local data_script3 = {
-        "Xx_MagicPho3nixRogu3",
-        "PixelatedChaseBacon2",
-        "XxFusionByteLavaxX",
-        "Qu33nArrow75",
-        "Charlotte_Void200266",
-        "FirePanda200985",
-        "BaconArrow200283",
-        "Chl03Z3r0Light2006",
-        "Asher_Raven26",
-        "StreamBacon200714",
+        "XxToxicMysticxX2015",
+        "Rid3r_Spark201324",
+        "FireStormyRider2022",
+        "Mas0nCraftSt0rm2023",
+        "ScarlettMaxFlick2008",
+        "Primal_Blizzard20083",
+        "StormMin3rEcho2022",
+        "Xx_CarterRocketCooki",
+        "DanielCyberBacon84",
+        "PrismLuckyV0rtex",
         "Scarlett_Craze201887",
         "Qu33nVip3rDawn29"
 }
 local data_script4 = {
+    "XxIceFrostSparkxX201",
+    "GabrielNe0nZer0",
+    "Aqua_Fr0st200615"
 }
 
 local function isInTable(tbl, value)
