@@ -9,16 +9,16 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "XxHeroBaconSkyxX79",
-        "XXHUNTER_HeroxX31",
-        "XxInfernoGigaxX2012",
-        "XxJacks0nP0w3rBlad3x",
-        "XxL3g3ndMoonMagicxX",
-        "XxLayla_CrystalxX26",
-        "XxLeviKnightxX201285",
-        "XxLightHaz3GlitchxX2",
-        "XxLoganRiderFlashxX",
-        "XxMiner_GalaxyxX32",
+        "Min3rJ3llyB3ar",
+        "XxBear_WolfxX52",
+        "AvaPho3nixPrimal",
+        "VortexSlime201157",
+        "NeonBear202431",
+        "CarterGoldenHunter20",
+        "Pangpream2A7sL",
+        "TigerBeast201434",
+        "Pix3lMax201787",
+        "ThunderPixelKnight_Y",
         "micahkai8_158",
         "JellyLi0nSky2006"
 }
@@ -26,30 +26,28 @@ local data_script1 = {
 local data_script2 = {
         "XxJackViperPrismxX",
         "Xx_GamerGlitchSt0rmy",
-        "XxOliviaBlazeFlickxX",
-        "XxPandaVortexFlickxX",
-        "XxPho3nixPandaSparkx",
-        "XxPulse_TurboxX65",
-        "XxRileyPrismxX201466",
-        "XxRocketFlashxX20082",
-        "XxStarInf3rnoPow3rxX",
-        "XxStealthStreamxX33",
-        "XxStormCodexX200424",
-        "XxThunderNightEaglex"
+        "RiftMaxBear86",
+        "DancerEpic201315",
+        "FuryHyperLion2007",
+        "Queen_CLAW84",
+        "HarperGoldenMax2004",
+        "XXRILEY_ArrowxX2011Y",
+        "TurboChill201281",
+        "MoonDarkAlpha_YT",
+        "XxLoganVortexGhostxX",
+        "ToxicHazeAqua2010"
 }
 
 local data_script3 = {
-        "XxTurboNinjaLavaxX",
-        "XxVortexSaberBaconxX",
-        "XxZoeLavaUltraxX",
-        "Z0eFuryGamer",
-        "ZeroCrazeStealth",
-        "PangpreamhKoIR",
-        "Pangpreamykg2u",
+        "Li0nHer0Starry20",
+        "Tig3rW0lf2008",
         "Scarlett_Craze201887",
-        "VictoriaStream200475"
+        "Qu33nVip3rDawn29"
 }
 local data_script4 = {
+    "XxIceFrostSparkxX201",
+    "GabrielNe0nZer0",
+    "Aqua_Fr0st200615"
 }
 
 local function isInTable(tbl, value)
