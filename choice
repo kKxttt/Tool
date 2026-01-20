@@ -9,12 +9,6 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-    "micahkai8_158",
-    "eerwajly8288",
-    "gejx94cjhd75"
-}
-
-local data_script2 = {
         "IsaacHazeZ00m57",
         "XxKingTurb0Li0nxX",
         "Aubr3yNight85",
@@ -25,10 +19,12 @@ local data_script2 = {
         "StormyWraithMax",
         "ZoeCrystalIce",
         "GlitchSt0rmy71",
-        "Grays0nMax201540"
+        "Grays0nMax201540",
+        "micahkai8_158"
 }
 
-local data_script3 = {
+local data_script2 = {
+        "eerwajly8288",
         "ZaydenStormyAceYT",
         "LightWraith202479",
         "AsherGlitchEagle88",
@@ -41,7 +37,8 @@ local data_script3 = {
         "ZoomMax13",
         "XxJackIc3xX2014"
 }
-local data_script4 = {
+
+local data_script3 = {
         "LiamR0gu3200684",
         "RiftNinja200924",
         "XxPaisl3y_LUCKYXX90",
@@ -52,7 +49,10 @@ local data_script4 = {
         "LeviHunterPixel81",
         "ElijahPho3nix2007",
         "AidenInferno38",
-        "FlickStr3am2002"
+        "FlickStr3am2002",
+        "gejx94cjhd75"
+}
+local data_script4 = {
 }
 
 local function isInTable(tbl, value)
