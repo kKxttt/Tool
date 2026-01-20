@@ -25,7 +25,7 @@ local data_script2 = {
         "StormyWraithMax",
         "ZoeCrystalIce",
         "GlitchSt0rmy71",
-        "Grays0nMax201540",
+        "Grays0nMax201540"
 }
 
 local data_script3 = {
@@ -39,7 +39,7 @@ local data_script3 = {
         "TurboH3roBacon",
         "RIFT_Hunter200684",
         "ZoomMax13",
-        "XxJackIc3xX2014",
+        "XxJackIc3xX2014"
 }
 local data_script4 = {
         "LiamR0gu3200684",
@@ -52,7 +52,7 @@ local data_script4 = {
         "LeviHunterPixel81",
         "ElijahPho3nix2007",
         "AidenInferno38",
-        "FlickStr3am2002",
+        "FlickStr3am2002"
 }
 
 local function isInTable(tbl, value)
