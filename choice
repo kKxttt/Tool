@@ -9,48 +9,50 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "GabrielNe0nZer0",
-        "Min3rJ3llyB3ar",
-        "XxBear_WolfxX52",
-        "AvaPho3nixPrimal",
-        "Aqua_Fr0st200615",
-        "VortexSlime201157",
-        "NeonBear202431",
-        "CarterGoldenHunter20",
-        "Pangpream2A7sL",
-        "TigerBeast201434",
-        "micahkai8_158",
-        "JellyLi0nSky2006"
+    "micahkai8_158",
+    "eerwajly8288",
+    "gejx94cjhd75"
 }
 
 local data_script2 = {
-        "XxJackViperPrismxX",
-        "Xx_GamerGlitchSt0rmy",
-        "Pix3lMax201787",
-        "ThunderPixelKnight_Y",
-        "RiftMaxBear86",
-        "DancerEpic201315",
-        "FuryHyperLion2007",
-        "Queen_CLAW84",
-        "HarperGoldenMax2004",
-        "XXRILEY_ArrowxX2011Y",
-        "XxIceFrostSparkxX201",
-        "TurboChill201281"
+        "IsaacHazeZ00m57",
+        "XxKingTurb0Li0nxX",
+        "Aubr3yNight85",
+        "XxEv3lynDarkVoidxX",
+        "XxOliviaR0ck3tLavaxX",
+        "SaberBeastChill2005",
+        "HazelFlickStar",
+        "StormyWraithMax",
+        "ZoeCrystalIce",
+        "GlitchSt0rmy71",
+        "Grays0nMax201540",
 }
 
 local data_script3 = {
-        "MoonDarkAlpha_YT",
-        "XxLoganVortexGhostxX",
-        "ToxicHazeAqua2010",
-        "Li0nHer0Starry20",
-        "Tig3rW0lf2008",
-        "Scarlett_Craze201887",
-        "Qu33nVip3rDawn29"
+        "ZaydenStormyAceYT",
+        "LightWraith202479",
+        "AsherGlitchEagle88",
+        "JULIANHUNTER2007_YT",
+        "WraithP0wer200968",
+        "BaconSparkly201579",
+        "Aur0raP0werBane",
+        "TurboH3roBacon",
+        "RIFT_Hunter200684",
+        "ZoomMax13",
+        "XxJackIc3xX2014",
 }
 local data_script4 = {
-    "XxIceFrostSparkxX201",
-    "GabrielNe0nZer0",
-    "Aqua_Fr0st200615"
+        "LiamR0gu3200684",
+        "RiftNinja200924",
+        "XxPaisl3y_LUCKYXX90",
+        "FlickDuckSkater2013",
+        "FrostKnight200897",
+        "NightSkyKing2010",
+        "Xx_Aur0raCrystalNe0n",
+        "LeviHunterPixel81",
+        "ElijahPho3nix2007",
+        "AidenInferno38",
+        "FlickStr3am2002",
 }
 
 local function isInTable(tbl, value)
