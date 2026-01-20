@@ -1,3 +1,6 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "187409ea3183781502b80327"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
 getgenv().Config = {
 	["Shoot Heart When Ice Spike Breaks"] = false,
 	["Drive Boat To Tiki"] = false,
