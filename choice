@@ -9,22 +9,6 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "IsaacHazeZ00m57",
-        "XxKingTurb0Li0nxX",
-        "Aubr3yNight85",
-        "XxEv3lynDarkVoidxX",
-        "XxOliviaR0ck3tLavaxX",
-        "SaberBeastChill2005",
-        "HazelFlickStar",
-        "StormyWraithMax",
-        "ZoeCrystalIce",
-        "GlitchSt0rmy71",
-        "Grays0nMax201540",
-        "micahkai8_158"
-}
-
-local data_script2 = {
-        "eerwajly8288",
         "ZaydenStormyAceYT",
         "LightWraith202479",
         "AsherGlitchEagle88",
@@ -35,10 +19,12 @@ local data_script2 = {
         "TurboH3roBacon",
         "RIFT_Hunter200684",
         "ZoomMax13",
-        "XxJackIc3xX2014"
+        "XxJackIc3xX2014",
+        "micahkai8_158"
 }
 
-local data_script3 = {
+local data_script2 = {
+        "eerwajly8288",
         "LiamR0gu3200684",
         "RiftNinja200924",
         "XxPaisl3y_LUCKYXX90",
@@ -49,7 +35,21 @@ local data_script3 = {
         "LeviHunterPixel81",
         "ElijahPho3nix2007",
         "AidenInferno38",
-        "FlickStr3am2002",
+        "FlickStr3am2002"
+}
+
+local data_script3 = {
+        "XxNoahAlphaShadowxX",
+        "Sky_SLIME86YT",
+        "XxVenomStarViperxX",
+        "XxMagicProOrbitxX200",
+        "XxShadow_J3llyxXYT",
+        "XxEllieSparkRavenxX",
+        "Savannah_Block17",
+        "XxPix3lChillIc3xX201",
+        "XxNightMinerxX13",
+        "XxBuild3r_KingxX2022",
+        "Pr0BlizzardBlast",
         "gejx94cjhd75"
 }
 local data_script4 = {
