@@ -1,23 +1,41 @@
-_G.Settings_V4 = {
-    ["LockTiers"] = 11,
-    ["Lever"] = true, -- ออโต้ดึงคันโยก / Auto Pull Lever
-    ["InVIPServ"] = true, -- รีเซิฟให้ฟูลมูนรี / Crash when full moon end
-    ["HelperNameList"] = { -- ตัวช่วยได้ 2 ตัว / Put the helper account name
-        "XxJackViperPrismxX",
-        "Xx_GamerGlitchSt0rmy"
-    },
-    ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
-        "Pix3lMax201787",
-        "ThunderPixelKnight_Y",
-        "RiftMaxBear86",
-        "DancerEpic201315",
-        "FuryHyperLion2007",
-        "Queen_CLAW84",
-        "HarperGoldenMax2004",
-        "XXRILEY_ArrowxX2011Y",
-        "XxIceFrostSparkxX201",
-        "TurboChill201281"
-    }
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
+getgenv().Config = {
+	["Shoot Heart When Ice Spike Breaks"] = false,
+	["Drive Boat To Tiki"] = false,
+	["Drive Boat To Hydra"] = false,
+	["No Frog"] = true,
+	["Use New Method Shoot Heart"] = false,
+	["Random Devil Fruit"] = false,
+	["Use skill fast dont hold"] = true,
+	["Select Sea Events"] = {
+		[1] = "Terrorshark"
+	},
+	["Select Skills Blox Fruit"] = {
+		[1] = "X",
+		[2] = "Z"
+	},
+	["Webhook Shoot Heart Leviathan"] = false,
+	["Input Url Webhook"] = "https://discord.com/api/webhooks/1418611983715926086/jvwkEEqeoFS_TUe70XHzLSYEo6YU2hWIU-dOwXcGyApCOnm5rXULmMHgPUBT0tfgJRxc",
+	["Webhook Destroy IDK"] = false,
+	["Auto Farm Material Sanguine Art"] = false,
+	["Webhook Unlock Draco v4"] = false,
+	["Auto light the torch"] = false,
+	["Use New  Method Drive"] = false,
+	["Use Click M1 Fruit"] = false,
+	["Select Skills Melee"] = {
+		[1] = "X",
+		[2] = "Z"
+	},
+	["Ping Discord"] = false,
+	["Select Owner Boat Beast Hunter"] = "micahkai8_158",
+	["Boost Fps"] = true,
+	["Webhook Drive To Tiki/Hydra"] = false,
+	["Webhook Find Leviathan"] = true,
+	["Auto Chest Hop"] = false,
+	["Auto Craft Scroll"] = false,
+	["Account Buy Boat"] = false,
+	["Auto Store Fruit"] = false,
+	["Start Hunt Leviathan"] = true
 }
-script_key="jTmXaUOhVAkWNpuQDreonEQAOohlsydQ";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
