@@ -14,7 +14,7 @@ getgenv().Config = {
 		[1] = "X",
 		[2] = "Z"
 	},
-	["Webhook Shoot Heart Leviathan"] = false,
+	["Webhook Shoot Heart Leviathan"] = true,
 	["Input Url Webhook"] = "https://discord.com/api/webhooks/1418611983715926086/jvwkEEqeoFS_TUe70XHzLSYEo6YU2hWIU-dOwXcGyApCOnm5rXULmMHgPUBT0tfgJRxc",
 	["Webhook Destroy IDK"] = false,
 	["Auto Farm Material Sanguine Art"] = true,
