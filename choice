@@ -24,6 +24,7 @@ local data_script1 = {
 }
 
 local data_script2 = {
+        "eerwajly8288",
         "Byt3ClawFox",
         "BrooklynChaosBane",
         "SparklyN3onSlim3",
@@ -34,22 +35,21 @@ local data_script2 = {
         "Jax0nR0ck3t86",
         "KnightChaseFrost",
         "N0ra_INFERN02003",
-        "GigaKnightSab3r2018",
-        "eerwajly8288"
+        "GigaKnightSab3r2018"
 }
 
 local data_script3 = {
-        "XxEch0BearxX2005",
-        "AvaCircuitCode2018",
-        "Jayd3nBuild3r10",
-        "Xx_SparkVortexStream",
-        "EV3LYN_Fox2013",
-        "JulianPrimalUltra200",
-        "Byt3ClawFox",
-        "BrooklynChaosBane",
-        "SparklyN3onSlim3",
-        "MateoRiftCraft2018",
-        "DawnSonic201255",
+        "MagicJ3llyChill",
+        "GALAXY_Circuit201139",
+        "XxNinjaThund3rZ3roxX",
+        "NovaSaberStormYT",
+        "DuckNightChase201284",
+        "Xx_MagicPho3nixRogu3",
+        "PixelatedChaseBacon2",
+        "XxFusionByteLavaxX",
+        "Qu33nArrow75",
+        "Charlotte_Void200266",
+        "FirePanda200985",
         "gejx94cjhd75"
 }
 local data_script4 = {
