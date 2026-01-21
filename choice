@@ -9,47 +9,47 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "AsherGlitchEagle88",
-        "BaconSparkly201579",
-        "Aur0raP0werBane",
-        "RIFT_Hunter200684",
-        "ZoomMax13",
-        "XxJackIc3xX2014",
-        "XxNoahAlphaShadowxX",
-        "Sky_SLIME86YT",
-        "XxVenomStarViperxX",
-        "XxMagicProOrbitxX200",
-        "XxShadow_J3llyxXYT",
-        "micahkai8_158"
-}
-
-local data_script2 = {
-        "eerwajly8288",
-        "XxEllieSparkRavenxX",
-        "Savannah_Block17",
-        "XxNightMinerxX13",
-        "XxBuild3r_KingxX2022",
-        "Pr0BlizzardBlast",
         "LavaThund3rFury2007",
         "Xx_Addis0nStreamUltr",
         "EpicBl0ckCha0s",
         "JaxonEchoOmega2019",
         "LukeP0wer55",
-        "Craze_SKATER27"
-}
-
-local data_script3 = {
+        "Craze_SKATER27",
         "XxQueenRogueHunterxX",
         "ZapShad0w2024_YT",
         "XxLucasIcexX99",
         "PrismDarkHunter2021",
         "XxW0lfDrag0nxX2020",
+        "micahkai8_158"
+}
+
+local data_script2 = {
+        "eerwajly8288",
         "Emma_Block36",
         "XxAmeliaFrostEaglexX",
         "Flick_Craft68",
         "Flam3_Vort3x23",
         "PhoenixMaster201266",
         "Light_Fusion200289",
+        "OrbitPh0enixPrism",
+        "XxSophia_Blad3xX2007",
+        "Stealth_Rift201816",
+        "Byte_PRO202171",
+        "StreamCircuitPrism79"
+}
+
+local data_script3 = {
+        "XxEch0BearxX2005",
+        "AvaCircuitCode2018",
+        "Jayd3nBuild3r10",
+        "Xx_SparkVortexStream",
+        "EV3LYN_Fox2013",
+        "JulianPrimalUltra200",
+        "Byt3ClawFox",
+        "BrooklynChaosBane",
+        "SparklyN3onSlim3",
+        "MateoRiftCraft2018",
+        "DawnSonic201255",
         "gejx94cjhd75"
 }
 local data_script4 = {
