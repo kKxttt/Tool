@@ -10,35 +10,6 @@ print("Start script")
 
 local data_script1 = {
         "ZaydenStormyAceYT",
-        "LightWraith202479",
-        "AsherGlitchEagle88",
-        "JULIANHUNTER2007_YT",
-        "WraithP0wer200968",
-        "BaconSparkly201579",
-        "Aur0raP0werBane",
-        "TurboH3roBacon",
-        "RIFT_Hunter200684",
-        "ZoomMax13",
-        "XxJackIc3xX2014",
-        "micahkai8_158"
-}
-
-local data_script2 = {
-        "eerwajly8288",
-        "XxNoahAlphaShadowxX",
-        "Sky_SLIME86YT",
-        "XxVenomStarViperxX",
-        "XxMagicProOrbitxX200",
-        "XxShadow_J3llyxXYT",
-        "XxEllieSparkRavenxX",
-        "Savannah_Block17",
-        "XxPix3lChillIc3xX201",
-        "XxNightMinerxX13",
-        "XxBuild3r_KingxX2022",
-        "Pr0BlizzardBlast"
-}
-
-local data_script3 = {
         "L3g3nd_Gold3n15",
         "PrismNeonShadow",
         "Ezra_Shadow51",
@@ -49,7 +20,36 @@ local data_script3 = {
         "Stealth_Haze46",
         "Xx_Addis0nStreamUltr",
         "Carter_Li0n2023",
+        "micahkai8_158"
+}
+
+local data_script2 = {
+        "eerwajly8288",
         "EpicBl0ckCha0s",
+        "JaxonEchoOmega2019",
+        "LukeP0wer55",
+        "Craze_SKATER27",
+        "XxQueenRogueHunterxX",
+        "ZapShad0w2024_YT",
+        "XxLucasIcexX99",
+        "PrismDarkHunter2021",
+        "XxW0lfDrag0nxX2020",
+        "Emma_Block36",
+        "XxAmeliaFrostEaglexX"
+}
+
+local data_script3 = {
+        "Flick_Craft68",
+        "Flam3_Vort3x23",
+        "PhoenixMaster201266",
+        "Light_Fusion200289",
+        "OrbitPh0enixPrism",
+        "XxSophia_Blad3xX2007",
+        "Stealth_Rift201816",
+        "Byte_PRO202171",
+        "StreamCircuitPrism79",
+        "XxEch0BearxX2005",
+        "AvaCircuitCode2018",
         "gejx94cjhd75"
 }
 local data_script4 = {
