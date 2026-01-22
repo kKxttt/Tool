@@ -1,6 +1,5 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
 getgenv().Config = {
 	["Shoot Heart When Ice Spike Breaks"] = false,
 	["Drive Boat To Tiki"] = false,
@@ -29,7 +28,7 @@ getgenv().Config = {
 		[2] = "Z"
 	},
 	["Ping Discord"] = false,
-	["Select Owner Boat Beast Hunter"] = "BrandyMcintosh3613",
+	["Select Owner Boat Beast Hunter"] = "gejx94cjhd75",
 	["Boost Fps"] = true,
 	["Webhook Drive To Tiki/Hydra"] = false,
 	["Webhook Find Leviathan"] = true,
@@ -39,3 +38,5 @@ getgenv().Config = {
 	["Auto Store Fruit"] = false,
 	["Start Hunt Leviathan"] = true
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
