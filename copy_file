@@ -9,45 +9,50 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "Min3rJ3llyB3ar",
-        "XxBear_WolfxX52",
-        "AvaPho3nixPrimal",
-        "VortexSlime201157",
-        "NeonBear202431",
-        "CarterGoldenHunter20",
-        "Pangpream2A7sL",
-        "TigerBeast201434",
-        "Pix3lMax201787",
-        "ThunderPixelKnight_Y",
-        "micahkai8_158",
-        "JellyLi0nSky2006"
+        "LavaThund3rFury2007",
+        "Xx_Addis0nStreamUltr",
+        "XxQueenRogueHunterxX",
+        "Flick_Craft68",
+        "Flam3_Vort3x23",
+        "XxEch0BearxX2005",
+        "AvaCircuitCode2018",
+        "Jayd3nBuild3r10",
+        "Xx_SparkVortexStream",
+        "EV3LYN_Fox2013",
+        "JulianPrimalUltra200",
+        "micahkai8_158"
 }
 
 local data_script2 = {
-        "XxJackViperPrismxX",
-        "Xx_GamerGlitchSt0rmy",
-        "RiftMaxBear86",
-        "DancerEpic201315",
-        "FuryHyperLion2007",
-        "Queen_CLAW84",
-        "HarperGoldenMax2004",
-        "XXRILEY_ArrowxX2011Y",
-        "TurboChill201281",
-        "MoonDarkAlpha_YT",
-        "XxLoganVortexGhostxX",
-        "ToxicHazeAqua2010"
+        "eerwajly8288",
+        "Byt3ClawFox",
+        "BrooklynChaosBane",
+        "SparklyN3onSlim3",
+        "MateoRiftCraft2018",
+        "DawnSonic201255",
+        "HazePro82",
+        "SamuelShad0wThunder2",
+        "Jax0nR0ck3t86",
+        "KnightChaseFrost",
+        "N0ra_INFERN02003",
+        "GigaKnightSab3r2018"
 }
 
 local data_script3 = {
-        "Li0nHer0Starry20",
-        "Tig3rW0lf2008",
-        "Scarlett_Craze201887",
-        "Qu33nVip3rDawn29"
+        "MagicJ3llyChill",
+        "GALAXY_Circuit201139",
+        "XxNinjaThund3rZ3roxX",
+        "NovaSaberStormYT",
+        "DuckNightChase201284",
+        "Xx_MagicPho3nixRogu3",
+        "PixelatedChaseBacon2",
+        "XxFusionByteLavaxX",
+        "Qu33nArrow75",
+        "Charlotte_Void200266",
+        "FirePanda200985",
+        "gejx94cjhd75"
 }
 local data_script4 = {
-    "XxIceFrostSparkxX201",
-    "GabrielNe0nZer0",
-    "Aqua_Fr0st200615"
 }
 
 local function isInTable(tbl, value)
