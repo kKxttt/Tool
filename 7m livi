@@ -12,7 +12,7 @@ getgenv().Config = {
 	["Random Devil Fruit"] = false,
 	["Use skill fast dont hold"] = true,
 	["Select Sea Events"] = {
-
+		[1] = "Terrorshark"
 	},
 	["Select Skills Blox Fruit"] = {
 		[1] = "X",
