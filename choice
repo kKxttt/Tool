@@ -1,42 +1,86 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
-getgenv().Config = {
-	["Shoot Heart When Ice Spike Breaks"] = false,
-	["Drive Boat To Tiki"] = false,
-	["Drive Boat To Hydra"] = false,
-	["No Frog"] = true,
-	["Use New Method Shoot Heart"] = false,
-	["Random Devil Fruit"] = false,
-	["Use skill fast dont hold"] = true,
-	["Select Sea Events"] = {
-		[1] = "Terrorshark"
-	},
-	["Select Skills Blox Fruit"] = {
-		[1] = "X",
-		[2] = "Z"
-	},
-	["Webhook Shoot Heart Leviathan"] = false,
-	["Input Url Webhook"] = "https://discord.com/api/webhooks/1418611983715926086/jvwkEEqeoFS_TUe70XHzLSYEo6YU2hWIU-dOwXcGyApCOnm5rXULmMHgPUBT0tfgJRxc",
-	["Webhook Destroy IDK"] = false,
-	["Auto Farm Material Sanguine Art"] = true,
-	["Webhook Unlock Draco v4"] = false,
-	["Auto light the torch"] = false,
-	["Use New  Method Drive"] = false,
-	["Use Click M1 Fruit"] = false,
-	["Select Skills Melee"] = {
-		[1] = "X",
-		[2] = "Z"
-	},
-	["Ping Discord"] = false,
-	["Select Owner Boat Beast Hunter"] = "gejx94cjhd75",
-	["Boost Fps"] = true,
-	["Webhook Drive To Tiki/Hydra"] = false,
-	["Webhook Find Leviathan"] = true,
-	["Auto Chest Hop"] = false,
-	["Auto Craft Scroll"] = false,
-	["Account Buy Boat"] = false,
-	["Auto Store Fruit"] = false,
-	["Start Hunt Leviathan"] = true
+repeat task.wait(0.1) until game:IsLoaded()
+
+print("Start script")
+
+    -- "micahkai8_158",
+    -- "JellyLi0nSky2006",
+
+    -- "XxJackViperPrismxX",
+    -- "Xx_GamerGlitchSt0rmy",
+
+local data_script1 = {
+        "SaberBeastChill2005",
+        "ZaydenStormyAceYT",
+        "LightWraith202479",
+        "XxPaisl3y_LUCKYXX90",
+        "FrostKnight200897",
+        "Xx_Aur0raCrystalNe0n",
+        "LeviHunterPixel81",
+        "AidenInferno38",
+        "XxPix3lChillIc3xX201",
+        "LavaThund3rFury2007",
+        "Stealth_Haze46",
+        "micahkai8_158"
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
+local data_script2 = {
+        "Xx_Addis0nStreamUltr",
+        "XxQueenRogueHunterxX",
+        "Flick_Craft68",
+        "Flam3_Vort3x23",
+        "XxEch0BearxX2005",
+        "AvaCircuitCode2018",
+        "Jayd3nBuild3r10",
+        "Xx_SparkVortexStream",
+        "EV3LYN_Fox2013",
+        "JulianPrimalUltra200",
+        "Byt3ClawFox",
+        "GigaKnightSab3r2018"
+}
+
+local data_script3 = {
+        "BrooklynChaosBane",
+        "SparklyN3onSlim3",
+        "MateoRiftCraft2018",
+        "DawnSonic201255",
+        "HazePro82",
+        "SamuelShad0wThunder2",
+        "Jax0nR0ck3t86",
+        "KnightChaseFrost",
+        "N0ra_INFERN02003",
+        "GigaKnightSab3r2018",
+        "MagicJ3llyChill",
+        "gejx94cjhd75"
+}
+local data_script4 = {
+}
+
+local function isInTable(tbl, value)
+    for i, v in ipairs(tbl) do
+        if v == value then
+            return true
+        end
+    end
+    return false
+end
+
+local playerName = game.Players.LocalPlayer.Name
+
+if isInTable(data_script1, playerName) then
+    print("Script_Kaitun1")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun1"))()
+elseif isInTable(data_script2, playerName) then
+    print("Script_Kaitun2")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun2"))()
+elseif isInTable(data_script3, playerName) then
+    print("Script_Kaitun3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun3"))()
+elseif isInTable(data_script4, playerName) then
+    print("Script_Kaitun4")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun4"))()
+else
+    print("Script_Mode")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_modex"))()
+end
+
+print(playerName)
