@@ -15,44 +15,44 @@ local data_script1 = {
 }
 
 local data_script2 = {
-        "Asher_Stormy43",
-        "LavaThund3rFury2007",
-        "Xx_Addis0nStreamUltr",
-        "XxQueenRogueHunterxX",
-        "Flick_Craft68",
-        "Flam3_Vort3x23",
-        "XxEch0BearxX2005",
-        "AvaCircuitCode2018",
-        "Jayd3nBuild3r10",
-        "Xx_SparkVortexStream",
-        "EV3LYN_Fox2013"
-}
-
-local data_script3 = {
-        "JulianPrimalUltra200",
+        "JULIANHUNTER2007_YT",
         "Byt3ClawFox",
-        "BrooklynChaosBane",
         "SparklyN3onSlim3",
         "MateoRiftCraft2018",
-        "DawnSonic201255",
-        "HazePro82",
-        "SamuelShad0wThunder2",
-        "Jax0nR0ck3t86",
-        "KnightChaseFrost",
-        "N0ra_INFERN02003"
-}
-local data_script4 = {
         "GigaKnightSab3r2018",
         "MagicJ3llyChill",
         "GALAXY_Circuit201139",
         "XxNinjaThund3rZ3roxX",
         "NovaSaberStormYT",
         "DuckNightChase201284",
-        "Xx_MagicPho3nixRogu3",
+        "Xx_MagicPho3nixRogu3"
+}
+
+local data_script3 = {
         "PixelatedChaseBacon2",
         "XxFusionByteLavaxX",
         "Qu33nArrow75",
-        "Charlotte_Void200266"
+        "Charlotte_Void200266",
+        "FirePanda200985",
+        "BaconArrow200283",
+        "Chl03Z3r0Light2006",
+        "Asher_Raven26",
+        "StreamBacon200714",
+        "Turb0GlitchZ00m",
+        "XxJackBladexX2019YT"
+}
+local data_script4 = {
+        "VenomHunterCyber51",
+        "HannahFoxVort3x2011",
+        "HunterDawnHyper2004",
+        "Br00klynnSt3alth2024",
+        "Sparkly_Moon201333",
+        "Grac3Haz3Craz32017",
+        "MateoFlamePrimal22",
+        "LavaQueenLucky",
+        "XxAce_CookiexX2023",
+        "ToxicBlockFrost2016",
+        "XxToxicMysticxX2015"
 }
 
 local function isInTable(tbl, value)
