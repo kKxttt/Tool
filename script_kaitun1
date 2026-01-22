@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
 getgenv().Config = {
 	["Shoot Heart When Ice Spike Breaks"] = false,
-	["Drive Boat To Tiki"] = true,
+	["Drive Boat To Tiki"] = false,
 	["No Frog"] = true,
 	["Webhook Destroy IDK"] = false,
 	["Use New Method Shoot Heart"] = false,
@@ -12,29 +12,29 @@ getgenv().Config = {
 		[1] = "Terrorshark"
 	},
 	["Select Skills Blox Fruit"] = {
-		[1] = "X",
-		[2] = "Z"
+
 	},
 	["Webhook Shoot Heart Leviathan"] = false,
 	["Input Url Webhook"] = "https://discord.com/api/webhooks/1418611983715926086/jvwkEEqeoFS_TUe70XHzLSYEo6YU2hWIU-dOwXcGyApCOnm5rXULmMHgPUBT0tfgJRxc",
 	["Ping Discord"] = false,
-	["Auto Farm Material Sanguine Art"] = false,
+	["Auto Farm Material Sanguine Art"] = true,
 	["Webhook Unlock Draco v4"] = false,
 	["Auto light the torch"] = false,
 	["Use New  Method Drive"] = false,
 	["Use Click M1 Fruit"] = false,
 	["Select Skills Melee"] = {
 		[1] = "X",
-		[2] = "Z"
+		[2] = "C",
+		[3] = "Z"
 	},
 	["Drive Boat To Hydra"] = false,
-	["Select Owner Boat Beast Hunter"] = "",
+	["Select Owner Boat Beast Hunter"] = "micahkai8_158",
 	["Boost Fps"] = true,
 	["Webhook Drive To Tiki/Hydra"] = false,
 	["Webhook Find Leviathan"] = true,
 	["Auto Chest Hop"] = false,
 	["Auto Craft Scroll"] = false,
-	["Account Buy Boat"] = true,
+	["Account Buy Boat"] = false,
 	["Auto Store Fruit"] = false,
 	["Start Hunt Leviathan"] = true
 }
