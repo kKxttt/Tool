@@ -31,17 +31,17 @@ local data_script3 = {
         "PrismLuckyV0rtex"
 }
 local data_script4 = {
-        "Min3rJ3llyB3ar",
-        "XxBear_WolfxX52",
-        "AvaPho3nixPrimal",
-        "Aqua_Fr0st200615",
-        "VortexSlime201157",
-        "NeonBear202431",
-        "CarterGoldenHunter20",
-        "Pangpream2A7sL",
-        "TigerBeast201434",
-        "Pix3lMax201787",
-        "ThunderPixelKnight_Y"
+        "RiftMaxBear86",
+        "DancerEpic201315",
+        "FuryHyperLion2007",
+        "Queen_CLAW84",
+        "HarperGoldenMax2004",
+        "XXRILEY_ArrowxX2011Y",
+        "XxIceFrostSparkxX201",
+        "TurboChill201281",
+        "MoonDarkAlpha_YT",
+        "XxLoganVortexGhostxX",
+        "ToxicHazeAqua2010"
 }
 
 local function isInTable(tbl, value)
