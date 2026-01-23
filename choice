@@ -29,30 +29,30 @@ local data_script2 = {
 }
 
 local data_script3 = {
-        "BaconArrow200283",
-        "Chl03Z3r0Light2006",
+        "XxFusionByteLavaxX",
+        "Qu33nArrow75",
+        "Charlotte_Void200266",
+        "FirePanda200985",
         "Asher_Raven26",
-        "StreamBacon200714",
-        "Turb0GlitchZ00m",
-        "XxJackBladexX2019YT",
-        "VenomHunterCyber51",
-        "HannahFoxVort3x2011",
-        "HunterDawnHyper2004",
-        "Br00klynnSt3alth2024",
-        "Sparkly_Moon201333"
-}
-local data_script4 = {
         "Grac3Haz3Craz32017",
         "MateoFlamePrimal22",
         "LavaQueenLucky",
         "XxAce_CookiexX2023",
         "ToxicBlockFrost2016",
-        "XxToxicMysticxX2015",
+        "XxToxicMysticxX2015"
+}
+local data_script4 = {
         "Rid3r_Spark201324",
         "FireStormyRider2022",
         "Mas0nCraftSt0rm2023",
         "ScarlettMaxFlick2008",
-        "GabrielNe0nZer0"
+        "GabrielNe0nZer0",
+        "Primal_Blizzard20083",
+        "StormMin3rEcho2022",
+        "Xx_CarterRocketCooki",
+        "DanielCyberBacon84",
+        "PrismLuckyV0rtex",
+        "Min3rJ3llyB3ar",
 }
 
 local function isInTable(tbl, value)
