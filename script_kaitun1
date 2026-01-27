@@ -1,42 +1,79 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
-getgenv().Config = {
-	["Shoot Heart When Ice Spike Breaks"] = false,
-	["Drive Boat To Tiki"] = true,
-	["No Frog"] = true,
-	["Webhook Destroy IDK"] = false,
-	["Use New Method Shoot Heart"] = false,
-	["Random Devil Fruit"] = false,
-	["Use skill fast dont hold"] = true,
-	["Select Sea Events"] = {
-		[1] = "Terrorshark"
-	},
-	["Select Skills Blox Fruit"] = {
-
-	},
-	["Webhook Shoot Heart Leviathan"] = false,
-	["Input Url Webhook"] = "https://discord.com/api/webhooks/1418611983715926086/jvwkEEqeoFS_TUe70XHzLSYEo6YU2hWIU-dOwXcGyApCOnm5rXULmMHgPUBT0tfgJRxc",
-	["Ping Discord"] = false,
-	["Auto Farm Material Sanguine Art"] = false,
-	["Webhook Unlock Draco v4"] = false,
-	["Auto light the torch"] = false,
-	["Use New  Method Drive"] = false,
-	["Use Click M1 Fruit"] = false,
-	["Select Skills Melee"] = {
-		[1] = "X",
-		[2] = "C",
-		[3] = "Z"
-	},
-	["Drive Boat To Hydra"] = false,
-	["Select Owner Boat Beast Hunter"] = "",
-	["Boost Fps"] = true,
-	["Webhook Drive To Tiki/Hydra"] = false,
-	["Webhook Find Leviathan"] = true,
-	["Auto Chest Hop"] = false,
-	["Auto Craft Scroll"] = false,
-	["Account Buy Boat"] = true,
-	["Auto Store Fruit"] = false,
-	["Start Hunt Leviathan"] = true
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
+    getgenv().SettingFarm ={
+        ["Hide UI"] = false,
+        ["Reset Teleport"] = {
+            ["Enabled"] = false,
+            ["Delay Reset"] = 3,
+            ["Item Dont Reset"] = {
+                ["Fruit"] = {
+                    ["Enabled"] = true,
+                    ["All Fruit"] = true, 
+                    ["Select Fruit"] = {
+                        ["Enabled"] = false,
+                        ["Fruit"] = {},
+                    },
+                },
+            },
+        },
+        ["White Screen"] = false,
+        ["Lock Fps"] = {
+            ["Enabled"] = false,
+            ["FPS"] = 20,
+        },
+        ["Get Items"] = {
+            ["Saber"] = false,
+            ["Godhuman"] =  false,
+            ["Skull Guitar"] = true,
+            ["Mirror Fractal"] = false,
+            ["Cursed Dual Katana"] = false,
+            ["Upgrade Race V2-V3"] = true,
+            ["Auto Pull Lever"] = true,
+            ["Shark Anchor"] = false, --- if have cdk,sg,godhuman
+        },
+        ["Get Rare Items"] = {
+            ["Rengoku"] = false,
+            ["Dragon Trident"] = false, 
+            ["Pole (1st Form)"] = false,
+            ["Gravity Blade"]  = false,
+        },
+        ["Farm Fragments"] = {
+            ["Enabled"]  = true,
+            ["Fragment"] = 100000,
+        },
+        ["Auto Chat"] = {
+            ["Enabled"] = false,
+            ["Text"] = "",
+        },
+        ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
+        ["Select Hop"] = { -- 70% will have it
+            ["Hop Server If Have Player Near"] = false, 
+            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false, 
+            ["Hop Find Dough King Get Mirror Fractal"] = false,
+            ["Hop Find Raids Castle [CDK]"] = false,
+            ["Hop Find Cake Queen [CDK]"] = false,
+            ["Hop Find Soul Reaper [CDK]"] = false,
+            ["Hop Find Darkbeard [SG]"] = true,
+            ["Hop Find Mirage [ Pull Lever ]"] = true,
+        },
+        ["Farm Mastery"] = {
+            ["Melee"] = true,
+            ["Sword"] = true,
+        },
+        ["Buy Haki"] = {
+            ["Enhancement"] = false,
+            ["Skyjump"] = true,
+            ["Flash Step"] = true,
+            ["Observation"] = true,
+        },
+        ["Sniper Fruit Shop"] = {
+            ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
+            ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
+        },
+        ["Lock Fruit"] = {},
+        ["Webhook"] = {
+            ["Enabled"] = false,
+            ["WebhookUrl"] = "",
+        }
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
