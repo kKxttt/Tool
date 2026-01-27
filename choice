@@ -1,79 +1,52 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
-    getgenv().SettingFarm ={
-        ["Hide UI"] = false,
-        ["Reset Teleport"] = {
-            ["Enabled"] = false,
-            ["Delay Reset"] = 3,
-            ["Item Dont Reset"] = {
-                ["Fruit"] = {
-                    ["Enabled"] = true,
-                    ["All Fruit"] = true, 
-                    ["Select Fruit"] = {
-                        ["Enabled"] = false,
-                        ["Fruit"] = {},
-                    },
-                },
-            },
-        },
-        ["White Screen"] = false,
-        ["Lock Fps"] = {
-            ["Enabled"] = false,
-            ["FPS"] = 20,
-        },
-        ["Get Items"] = {
-            ["Saber"] = false,
-            ["Godhuman"] =  false,
-            ["Skull Guitar"] = true,
-            ["Mirror Fractal"] = false,
-            ["Cursed Dual Katana"] = false,
-            ["Upgrade Race V2-V3"] = true,
-            ["Auto Pull Lever"] = true,
-            ["Shark Anchor"] = false, --- if have cdk,sg,godhuman
-        },
-        ["Get Rare Items"] = {
-            ["Rengoku"] = false,
-            ["Dragon Trident"] = false, 
-            ["Pole (1st Form)"] = false,
-            ["Gravity Blade"]  = false,
-        },
-        ["Farm Fragments"] = {
-            ["Enabled"]  = true,
-            ["Fragment"] = 100000,
-        },
-        ["Auto Chat"] = {
-            ["Enabled"] = false,
-            ["Text"] = "",
-        },
-        ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
-        ["Select Hop"] = { -- 70% will have it
-            ["Hop Server If Have Player Near"] = false, 
-            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false, 
-            ["Hop Find Dough King Get Mirror Fractal"] = false,
-            ["Hop Find Raids Castle [CDK]"] = false,
-            ["Hop Find Cake Queen [CDK]"] = false,
-            ["Hop Find Soul Reaper [CDK]"] = false,
-            ["Hop Find Darkbeard [SG]"] = true,
-            ["Hop Find Mirage [ Pull Lever ]"] = true,
-        },
-        ["Farm Mastery"] = {
-            ["Melee"] = true,
-            ["Sword"] = true,
-        },
-        ["Buy Haki"] = {
-            ["Enhancement"] = false,
-            ["Skyjump"] = true,
-            ["Flash Step"] = true,
-            ["Observation"] = true,
-        },
-        ["Sniper Fruit Shop"] = {
-            ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
-            ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
-        },
-        ["Lock Fruit"] = {},
-        ["Webhook"] = {
-            ["Enabled"] = false,
-            ["WebhookUrl"] = "",
-        }
-    }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+repeat task.wait(0.1) until game:IsLoaded()
+
+print("Start script")
+
+    -- "micahkai8_158",
+    -- "JellyLi0nSky2006",
+
+    -- "XxJackViperPrismxX",
+    -- "Xx_GamerGlitchSt0rmy",
+
+local data_script1 = {
+    "zsnbbcsn0588",
+    "ngztkgsr0670"
+}
+
+local data_script2 = {
+}
+
+local data_script3 = {
+}
+local data_script4 = {
+}
+
+local function isInTable(tbl, value)
+    for i, v in ipairs(tbl) do
+        if v == value then
+            return true
+        end
+    end
+    return false
+end
+
+local playerName = game.Players.LocalPlayer.Name
+
+if isInTable(data_script1, playerName) then
+    print("Script_Kaitun1")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun1"))()
+elseif isInTable(data_script2, playerName) then
+    print("Script_Kaitun2")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun2"))()
+elseif isInTable(data_script3, playerName) then
+    print("Script_Kaitun3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun3"))()
+elseif isInTable(data_script4, playerName) then
+    print("Script_Kaitun4")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_kaitun4"))()
+else
+    print("Script_Mode")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kKxttt/Tool/refs/heads/main/script_modex"))()
+end
+
+print(playerName)
