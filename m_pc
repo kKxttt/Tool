@@ -1,0 +1,3 @@
+(getgenv()).key = "MARULNN0DKPJY0UX4LM6GSH4HD";
+(getgenv()).id = "1078334137074728970";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
