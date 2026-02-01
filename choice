@@ -9,42 +9,47 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "jsnlunor5222",
-        "bwnahepa4326",
-        "bqza30fktl16",
-        "knhv65emvv17",
-        "ntsgxatf8435",
-        "dbnbxgax0851",
-        "hcfq59ylnn57",
-        "tijq58gcrs17",
-        "pqiexpnz2226",
-        "omvx52huuj88",
-        "micahkai8_158",
-        "XxJackViperPrismxX"
+    "micahkai8_158",
+    "eerwajly8288",
+    "gejx94cjhd75"
 }
 
 local data_script2 = {
-        "bdux78tjje62",
-        "jyhevkcb0862",
-        "lexd18idql15",
-        "dqbk26zwvm09",
-        "gjdx31rkni17",
-        "iktz77ripr95",
-        "wkzv07stid46",
-        "rqgipxsd3328",
-        "bynjjhob5064",
-        "qduk71tuit73",
-        "Xx_GamerGlitchSt0rmy",
-        "JellyLi0nSky2006"
+        "ikjo57sbqq05",
+        "lpzg60qbga68",
+        "gmce25vkqo80",
+        "oeaq62emxb76",
+        "xesb24yivz08",
+        "yxfzaong2359",
+        "toce72zxil64",
+        "jgrtxkdc5898",
+        "qtoi75qbqf26",
+        "peduqbnf6756"
 }
 
 local data_script3 = {
-        "jozzdmny8632",
-        "tcfl57wylu05",
-        "Scarlett_Craze201887",
-        "VictoriaStream200475"
+        "fgmv67znhy12",
+        "lukjpoqu3680",
+        "qplafecn8124",
+        "nmqn73mvqn38",
+        "snzc42kmix38",
+        "wixwslcy4378",
+        "lplabbsj6587",
+        "vssy62hbgg41",
+        "hztlvywh1119",
+        "uqju52tqqq13"
 }
 local data_script4 = {
+        "jjzr22gods97",
+        "ueem95rmvf37",
+        "uwwu27uafm54",
+        "uukg84ygci73",
+        "izal64bvjb81",
+        "veys67txvr12",
+        "mlts76xxko95",
+        "mnrv87lzhn97",
+        "avyh92htlk89",
+        "lllc31itwd99"
 }
 
 local function isInTable(tbl, value)
