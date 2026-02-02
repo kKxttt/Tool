@@ -15,19 +15,6 @@ local data_script1 = {
 }
 
 local data_script2 = {
-        "ikjo57sbqq05",
-        "lpzg60qbga68",
-        "gmce25vkqo80",
-        "oeaq62emxb76",
-        "xesb24yivz08",
-        "yxfzaong2359",
-        "toce72zxil64",
-        "jgrtxkdc5898",
-        "qtoi75qbqf26",
-        "peduqbnf6756"
-}
-
-local data_script3 = {
         "fgmv67znhy12",
         "lukjpoqu3680",
         "qplafecn8124",
@@ -39,17 +26,30 @@ local data_script3 = {
         "hztlvywh1119",
         "uqju52tqqq13"
 }
+
+local data_script3 = {
+        "bzzr24hkul93",
+        "doqe46aqfy34",
+        "sist92ngkb20",
+        "fnurpusb4049",
+        "bkjboehe3002",
+        "zysl37svau47",
+        "qwpevnlk0656",
+        "zdko07uuqj12",
+        "ibqzjujw0526",
+        "xyvt32pvqh05"
+}
 local data_script4 = {
-        "jjzr22gods97",
-        "ueem95rmvf37",
-        "uwwu27uafm54",
-        "uukg84ygci73",
-        "izal64bvjb81",
-        "veys67txvr12",
-        "mlts76xxko95",
-        "mnrv87lzhn97",
-        "avyh92htlk89",
-        "lllc31itwd99"
+        "fuye00qghc54",
+        "xguddvdj0032",
+        "lrcmmylb0110",
+        "mwbb94pkxg02",
+        "pfle36qxpj88",
+        "iwgn75orgj46",
+        "rlpq01mulk11",
+        "ngztkgsr0670",
+        "bnhg61ymov67",
+        "aqlq41hzxu40"
 }
 
 local function isInTable(tbl, value)
