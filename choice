@@ -15,31 +15,6 @@ local data_script1 = {
 }
 
 local data_script2 = {
-        "wixwslcy4378",
-        "lplabbsj6587",
-        "vssy62hbgg41",
-        "hztlvywh1119",
-        "uqju52tqqq13",
-        "bzzr24hkul93",
-        "doqe46aqfy34",
-        "sist92ngkb20",
-        "fnurpusb4049",
-        "bkjboehe3002"
-}
-
-local data_script3 = {
-        "zysl37svau47",
-        "qwpevnlk0656",
-        "zdko07uuqj12",
-        "ibqzjujw0526",
-        "xyvt32pvqh05",
-        "fuye00qghc54",
-        "xguddvdj0032",
-        "lrcmmylb0110",
-        "mwbb94pkxg02",
-        "pfle36qxpj88"
-}
-local data_script4 = {
         "iwgn75orgj46",
         "rlpq01mulk11",
         "ngztkgsr0670",
@@ -50,6 +25,31 @@ local data_script4 = {
         "xwpdkltw7041",
         "jsnlunor5222",
         "bwnahepa4326"
+}
+
+local data_script3 = {
+        "bqza30fktl16",
+        "knhv65emvv17",
+        "ntsgxatf8435",
+        "dbnbxgax0851",
+        "hcfq59ylnn57",
+        "tijq58gcrs17",
+        "pqiexpnz2226",
+        "omvx52huuj88",
+        "bdux78tjje62",
+        "jyhevkcb0862"
+}
+local data_script4 = {
+        "lexd18idql15",
+        "dqbk26zwvm09",
+        "gjdx31rkni17",
+        "iktz77ripr95",
+        "wkzv07stid46",
+        "rqgipxsd3328",
+        "bynjjhob5064",
+        "qduk71tuit73",
+        "jozzdmny8632",
+        "tcfl57wylu05"
 }
 
 local function isInTable(tbl, value)
