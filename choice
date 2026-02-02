@@ -9,47 +9,14 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-    "micahkai8_158",
-    "eerwajly8288",
-    "gejx94cjhd75"
 }
 
 local data_script2 = {
-        "iwgn75orgj46",
-        "rlpq01mulk11",
-        "ngztkgsr0670",
-        "bnhg61ymov67",
-        "aqlq41hzxu40",
-        "qliq55qybj09",
-        "bycd62wcmh52",
-        "xwpdkltw7041",
-        "jsnlunor5222",
-        "bwnahepa4326"
 }
 
 local data_script3 = {
-        "bqza30fktl16",
-        "knhv65emvv17",
-        "ntsgxatf8435",
-        "dbnbxgax0851",
-        "hcfq59ylnn57",
-        "tijq58gcrs17",
-        "pqiexpnz2226",
-        "omvx52huuj88",
-        "bdux78tjje62",
-        "jyhevkcb0862"
 }
 local data_script4 = {
-        "lexd18idql15",
-        "dqbk26zwvm09",
-        "gjdx31rkni17",
-        "iktz77ripr95",
-        "wkzv07stid46",
-        "rqgipxsd3328",
-        "bynjjhob5064",
-        "qduk71tuit73",
-        "jozzdmny8632",
-        "tcfl57wylu05"
 }
 
 local function isInTable(tbl, value)
