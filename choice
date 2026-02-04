@@ -9,14 +9,47 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
+    "micahkai8_158",
+    "eerwajly8288",
+    "gejx94cjhd75"
 }
 
 local data_script2 = {
+        "OverseeLeviathan3453",
+        "OverseeStream4869",
+        "OverseeTerra8643",
+        "OxvomJudge7264",
+        "OxvomOmega1545",
+        "OxvomUtility3111",
+        "Packet6248",
+        "Paladin7512",
+        "Paladin9206",
+        "PaladinDraco6055"
 }
 
 local data_script3 = {
+        "PaladinFlux3208",
+        "PaladinLunar3017",
+        "PaladinMoon8437",
+        "PaladinProtocol8614",
+        "PaladinRender3807",
+        "PandaSurface9868",
+        "Panel3056",
+        "Panel3991",
+        "Panel5686",
+        "Panel6068"
 }
 local data_script4 = {
+        "Panel7940",
+        "Panel7970",
+        "PanelGiant1254",
+        "PanelMoon1579",
+        "PanelZenith8192",
+        "Panther7992",
+        "PantherChill7965",
+        "PantherSoul8065",
+        "PantherVenom2333",
+        "paoFlux9457"
 }
 
 local function isInTable(tbl, value)
