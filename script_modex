@@ -1,80 +1,229 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
-    getgenv().SettingFarm ={
-        ["Hide UI"] = false,
-        ["Reset Teleport"] = {
-            ["Enabled"] = false,
-            ["Delay Reset"] = 3,
-            ["Item Dont Reset"] = {
-                ["Fruit"] = {
-                    ["Enabled"] = false,
-                    ["All Fruit"] = false, 
-                    ["Select Fruit"] = {
-                        ["Enabled"] = false,
-                        ["Fruit"] = {},
-                    },
-                },
-            },
-        },
-        ["White Screen"] = false,
-        ["Lock Fps"] = {
-            ["Enabled"] = false,
-            ["FPS"] = 8,
-        },
-        ["Get Items"] = {
-            ["Saber"] = false,
-            ["Godhuman"] =  false,
-            ["Skull Guitar"] = false,
-            ["Valkyrie Helm"] = false,
-            ["Mirror Fractal"] = false,
-            ["Cursed Dual Katana"] = false,
-            ["Upgrade Race V2-V3"] = false,
-            ["Auto Pull Lever"] = false,
-            ["Shark Anchor"] = false, --- if have cdk,sg,godhuman
-        },
-        ["Get Rare Items"] = {
-            ["Rengoku"] = false,
-            ["Dragon Trident"] = false, 
-            ["Pole (1st Form)"] = false,
-            ["Gravity Blade"]  = false,
-        },
-        ["Farm Fragments"] = {
-            ["Enabled"]  = true,
-            ["Fragment"] = 100000,
-        },
-        ["Auto Chat"] = {
-            ["Enabled"] = false,
-            ["Text"] = "anhhub kaitun ontop : danhng.",
-        },
-        ["Auto Summon Rip Indra"] = false, --- auto buy haki and craft haki legendary 
-        ["Select Hop"] = { -- 70% will have it
-            ["Hop Server If Have Player Near"] = false, 
-            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false, 
-            ["Hop Find Dough King Get Mirror Fractal"] = false,
-            ["Hop Find Raids Castle [CDK]"] = false,
-            ["Hop Find Cake Queen [CDK]"] = false,
-            ["Hop Find Soul Reaper [CDK]"] = false,
-            ["Hop Find Darkbeard [SG]"] = false,
-            ["Hop Find Mirage [ Pull Lever ]"] = false,
-        },
-        ["Farm Mastery"] = {
-            ["Melee"] = true,
-            ["Sword"] = false,
-        },
-        ["Buy Haki"] = {
-            ["Enhancement"] = true,
-            ["Skyjump"] = true,
-            ["Flash Step"] = true,
-            ["Observation"] = true,
-        },
-        ["Sniper Fruit Shop"] = {
-            ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
-            ["Fruit"] = {},
-        },
-        ["Lock Fruit"] = {},
-        ["Webhook"] = {
-            ["Enabled"] = true,
-            ["WebhookUrl"] = "https://discord.com/api/webhooks/1411727806324277318/IQ8hJinQA7hTstnsqc05BsQzyKNrctML_n2BafVKOBzIpBL-xg2JFQza761QtgOFM0hy",
-        }
+wait(3)
+repeat task.wait() until game:IsLoaded()
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('SetTeam', 'Pirates')
+
+
+local TweenService = game:GetService("TweenService")
+local Players = game:GetService("Players")
+
+local plr = game.Players.LocalPlayer
+print('dddd')
+local Char = plr.Character or plr.CharacterAdded:Wait()
+local Humanoid = Char:FindFirstChild('Humanoid')
+local RootPlr = Char:FindFirstChild("HumanoidRootPart")
+plr.CharacterAdded:Connect(function(char)
+    Char = char
+    Humanoid = char:WaitForChild('Humanoid')
+    RootPlr = char:WaitForChild('HumanoidRootPart')
+end)
+
+
+_G.FastAttack = true
+
+local Modules = {} do
+if _G.FastAttack then
+    local CameraShaker = require(game.ReplicatedStorage.Util.CameraShaker)
+    CameraShaker:Stop()
+    local Players = game:GetService("Players")
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local RunService = game:GetService("RunService")
+    local Player = Players.LocalPlayer
+    local function Wait(x, y)
+        return x:FindFirstChild(y) or x:WaitForChild(y)
+    end
+    local Remotes = Wait(ReplicatedStorage, "Remotes")
+    local Net = Wait(Wait(ReplicatedStorage,"Modules"), "Net")
+    local Net2 = require(ReplicatedStorage.Modules.Net)
+    local RegisterAttack = Wait(Net, "RE/RegisterAttack")
+    local RegisterHit = Net2:RemoteEvent('RegisterHit', true) or Wait(Net, "RE/RegisterHit")
+    local Enemies = Wait(workspace, "Enemies")
+    local Characters = Wait(workspace, "Characters")
+    local Config = {
+        AutoClick = true,
+        Delay = 0.2,
+        Distance = 100
     }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+    local function Alive(c)
+        return c and c:FindFirstChild("Humanoid") and c.Humanoid.Health > 0
+    end
+    local function mob(t, folder)
+        for _, v in folder:GetChildren() do
+            local h = v:FindFirstChild("Head")
+            if h and Alive(v) and v ~= Player.Character and Player:DistanceFromCharacter(h.Position) < Config.Distance then
+                t[#t+1] = {v, h}
+            end
+        end
+    end
+    function Modules:FastAttack()
+        while task.wait(Config.Delay) do
+            local char = Player.Character
+            local tool = char and char:FindFirstChildOfClass("Tool")
+            if not (Config.AutoClick and Alive(char) and tool and tool.ToolTip ~= "Gun") then continue end
+            local targets = {}
+            mob(targets, Enemies)
+            mob(targets, Characters)
+            if #targets == 0 then continue end
+            for _, d in ipairs(targets) do
+                local enemy = d[1]
+                local h = enemy:FindFirstChild("HumanoidRootPart")
+                if h then
+                    RegisterAttack:FireServer(Config.Delay)
+                    RegisterHit:FireServer(d[2], targets)
+                end
+            end
+        end
+    end
+    task.spawn(function()
+        Modules:FastAttack()
+    end)
+end
+end
+
+local function EquipTool(Name)
+    local backpack = game.Players.LocalPlayer.Backpack
+    for _, tool in ipairs(backpack:GetChildren()) do
+        if tool:IsA("Tool") and tool.ToolTip == Name then
+            game.Players.LocalPlayer.Character.Humanoid:EquipTool(tool)
+        end
+    end
+end
+
+local function FarmMon(Sea)
+
+    _G.FramMonter = true
+    while _G.FramMonter do task.wait()
+
+        local TierV4 = game:GetService("Players").LocalPlayer.Data.Race.C.Value
+
+        local Name = game.Players.LocalPlayer
+        local CheckTimeV4 = workspace.Characters:FindFirstChild(Name.Name) and workspace.Characters[Name.Name]:FindFirstChild("RaceTransformed")
+        while CheckTimeV4.Value do task.wait()
+            Tween(Sea)
+            EquipTool('Tool')
+        end
+
+        local checkMon = nil
+        for index, v in pairs(workspace.Enemies:GetChildren())do
+
+            local RootMon = v:FindFirstChild('HumanoidRootPart')
+            local HumanoidMon = v:FindFirstChild('Humanoid')
+
+            local Plr = game.Players.LocalPlayer
+            local Char = Plr.Character
+            local HmnPlr = Char:FindFirstChild('HumanoidRootPart')
+
+
+            if RootMon and HumanoidMon then
+
+                local MonDistan = (RootMon.Position - HmnPlr.Position).Magnitude
+                if MonDistan <= 370 then
+                    local Posmon = RootMon.CFrame
+                    local HealthMon = HumanoidMon.Health
+
+                    if Posmon and HealthMon then
+
+                        if HealthMon > 0 and Posmon then
+                            checkMon = v
+                            break
+                        end
+                    end
+                end
+            end
+        end
+
+        -- local player = game.Players.LocalPlayer.Character.HumanoidRootPartween
+        if checkMon then
+            
+            EquipTool('Melee')
+            local UserService = game:GetService('VirtualInputManager')
+            UserService:SendKeyEvent(true, Enum.KeyCode.Y, false, game)
+            UserService:SendKeyEvent(false, Enum.KeyCode.Y, false, game)
+
+            local Root_Monter = checkMon.HumanoidRootPart
+            local NewCFrame = (Root_Monter.CFrame) * CFrame.new(0,25,0)
+            Tween(NewCFrame)
+        else
+            Tween(Sea)
+        end
+    end
+end
+
+local Env = {}
+Env.Tween = nil
+Env.StopTween = false
+
+local function SetBodyVelocity(state)
+    local root = RootPlr
+    if not root then return end
+
+    if state then
+        if not root:FindFirstChild("BodyVelocity1") then
+            local bv = Instance.new("BodyVelocity")
+            bv.Name = "BodyVelocity1"
+            bv.MaxForce = Vector3.new(1e5, 1e5, 1e5)
+            bv.Velocity = Vector3.zero
+            bv.Parent = root
+        end
+    else
+        local bv = root:FindFirstChild("BodyVelocity1")
+        if bv then bv:Destroy() end
+    end
+end
+
+function Tween(PosCFrame)
+    Humanoid = Char:FindFirstChild('Humanoid')
+    RootPlr = Char:FindFirstChild("HumanoidRootPart")
+    if Humanoid.Health == 0 then
+        if Env.Tween then Env.Tween:Cancel() end
+    end
+
+    SetBodyVelocity(true)
+
+    local distance = (PosCFrame.Position - RootPlr.Position).Magnitude
+
+    if Humanoid.Sit then Humanoid.Sit = false end
+
+    Env.Tween = TweenService:Create(
+        RootPlr,
+        TweenInfo.new(distance / 360, Enum.EasingStyle.Linear),
+        { CFrame = PosCFrame }
+    )
+
+    Env.Tween:Play()
+    Env.Tween.Completed:Wait()
+    SetBodyVelocity(false)
+    return true
+end
+
+print('ss')
+repeat task.wait() until game:IsLoaded()
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('SetTeam', 'Pirates')
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelZou")
+
+local backplr = game:GetService("Players").LocalPlayer.Backpack
+local check_M = false
+
+
+
+while true do task.wait()
+    Tween(CFrame.new(-16513.90625, 23.534252166748047, -190.11248779296875))
+    if Tween(CFrame.new(-16513.90625, 23.534252166748047, -190.11248779296875)) then
+        wait(4)
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer('BuySanguineArt')
+        
+        for _, v in pairs(backplr:GetChildren()) do
+        if tostring(v.Name) == 'Sanguine Art' then
+                check_M = true
+            end
+        end
+
+        if check_M then
+            break
+        end
+    end
+end
