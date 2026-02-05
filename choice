@@ -15,41 +15,41 @@ local data_script1 = {
 }
 
 local data_script2 = {
-        "OverseeLeviathan3453",
-        "OverseeStream4869",
-        "OverseeTerra8643",
         "OxvomJudge7264",
         "OxvomOmega1545",
         "OxvomUtility3111",
-        "Packet6248",
         "Paladin7512",
         "Paladin9206",
-        "PaladinDraco6055"
+        "PaladinFlux3208",
+        "PaladinLunar3017",
+        "paoMax8272",
+        "paoRaven3746",
+        "paoStatic3414"
 }
 
 local data_script3 = {
-        "PaladinFlux3208",
-        "PaladinLunar3017",
-        "PaladinMoon8437",
-        "PaladinProtocol8614",
-        "PaladinRender3807",
-        "PandaSurface9868",
-        "Panel3056",
-        "Panel3991",
-        "Panel5686",
-        "Panel6068"
+        "Paradox8964",
+        "ParadoxSurface5871",
+        "Particle2056",
+        "Particle2956",
+        "Particle4557",
+        "Particle5141",
+        "Particle6531",
+        "Particle9745",
+        "Passive2607",
+        "Passive5108"
 }
 local data_script4 = {
-        "Panel7940",
-        "Panel7970",
-        "PanelGiant1254",
-        "PanelMoon1579",
-        "PanelZenith8192",
-        "Panther7992",
-        "PantherChill7965",
-        "PantherSoul8065",
-        "PantherVenom2333",
-        "paoFlux9457"
+        "Passive9996",
+        "PassiveRebuild4050",
+        "PatchBadge4622",
+        "PatchStorm4812",
+        "PatStream6484",
+        "Pattern1499",
+        "Pattern3159",
+        "Pattern3876",
+        "Pattern4725",
+        "Pattern7223"
 }
 
 local function isInTable(tbl, value)
