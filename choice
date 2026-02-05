@@ -46,10 +46,10 @@ local data_script4 = {
         "PhantomWarlock4970",
         "PhoenixHex1245",
         "PhoenixJolt9359",
-        "PhoenixRender6812",
         "PhoenixSimple3368",
-        "PhoenixTurbo7954",
-        "Pioneer7528"
+        "Pioneer7528",
+        "PioneerFlux6810",
+        "PioneerForce4020"
 }
 
 local function isInTable(tbl, value)
