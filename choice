@@ -15,24 +15,20 @@ local data_script1 = {
 }
 
 local data_script2 = {
-        "PointCade3865",
-        "PointComet2706",
-        "PointRapid6340",
-        "PointSonic7804",
-        "PolarChase2513",
-        "PolarGriffin2878",
-        "PolarPaladin5223",
-        "PolarPower7780",
-        "PolarWisp1126",
-        "PotBreach9237"
+        "OxvomJudge7264",
+        "OxvomOmega1545",
+        "OxvomUtility3111",
+        "Paladin7512",
+        "Paladin9206",
+        "PaladinFlux3208",
+        "PaladinLunar3017",
+        "Particle2956",
+        "Passive5108",
+        "PowerSolar9858",
+        "Precise1441"
 }
 
 local data_script3 = {
-        "PowerEssence3077",
-        "PowerRegion7251",
-        "PowerSolar9858",
-        "Precise1441",
-        "Precise5675"
 }
 local data_script4 = {
 }
