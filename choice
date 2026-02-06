@@ -15,41 +15,26 @@ local data_script1 = {
 }
 
 local data_script2 = {
-        "Paradox8964",
-        "ParadoxSurface5871",
-        "Particle9745",
-        "Passive2607",
-        "Passive5108",
-        "PassiveRebuild4050",
-        "PatchBadge4622",
-        "PatStream6484",
-        "Pattern1499",
-        "Pattern3159"
+        "PointCade3865",
+        "PointComet2706",
+        "PointRapid6340",
+        "PointSonic7804",
+        "PolarChase2513",
+        "PolarGriffin2878",
+        "PolarPaladin5223",
+        "PolarPower7780",
+        "PolarWisp1126",
+        "PotBreach9237"
 }
 
 local data_script3 = {
-        "Pattern3876",
-        "Pattern4725",
-        "Pattern7223",
-        "PixelLegend9441",
-        "Planet9974",
-        "PlanetBlight5685",
-        "PlanetComet8596",
-        "Platform4241",
-        "Platform6681",
-        "Platform6683"
+        "PowerEssence3077",
+        "PowerRegion7251",
+        "PowerSolar9858",
+        "Precise1441",
+        "Precise5675"
 }
 local data_script4 = {
-        "Platform7038",
-        "PlatformCoral1644",
-        "PlatformEmerald8183",
-        "PlatformMaelstro2978",
-        "Playz3147",
-        "Playz3298",
-        "PlayzBeast2549",
-        "PlayzCinder9796",
-        "PlayzDread1022",
-        "PlayzPyro2884"
 }
 
 local function isInTable(tbl, value)
