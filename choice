@@ -9,23 +9,9 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-    "micahkai8_158",
-    "eerwajly8288",
-    "gejx94cjhd75"
 }
 
 local data_script2 = {
-        "OxvomJudge7264",
-        "OxvomOmega1545",
-        "OxvomUtility3111",
-        "Paladin7512",
-        "Paladin9206",
-        "PaladinFlux3208",
-        "PaladinLunar3017",
-        "Particle2956",
-        "Passive5108",
-        "PowerSolar9858",
-        "Precise1441"
 }
 
 local data_script3 = {
