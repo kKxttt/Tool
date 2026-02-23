@@ -27,7 +27,7 @@ getgenv().Key = "4a5f9f00abc7fa53c8b2cd4f"
             ["Skull Guitar"] = true,
             ["Mirror Fractal"] = false,
             ["Cursed Dual Katana"] = false,
-            ["Upgrade Race V2-V3"] = false,
+            ["Upgrade Race V2-V3"] = true,
             ["Auto Pull Lever"] = true,
             ["Shark Anchor"] = false, --- if have cdk,sg,godhuman
         },
