@@ -1,42 +1,23 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "187409ea3183781502b80327"
-getgenv().Config = {
-	["Shoot Heart When Ice Spike Breaks"] = false,
-	["Drive Boat To Tiki"] = true,
-	["No Frog"] = true,
-	["Webhook Destroy IDK"] = false,
-	["Use New Method Shoot Heart"] = false,
-	["Random Devil Fruit"] = false,
-	["Use skill fast dont hold"] = true,
-	["Select Sea Events"] = {
-		[1] = "Terrorshark"
-	},
-	["Select Skills Blox Fruit"] = {
-		[1] = "X",
-		[2] = "Z"
-	},
-	["Webhook Shoot Heart Leviathan"] = false,
-	["Input Url Webhook"] = "https://discord.com/api/webhooks/1418611983715926086/jvwkEEqeoFS_TUe70XHzLSYEo6YU2hWIU-dOwXcGyApCOnm5rXULmMHgPUBT0tfgJRxc",
-	["Ping Discord"] = false,
-	["Auto Farm Material Sanguine Art"] = false,
-	["Webhook Unlock Draco v4"] = false,
-	["Auto light the torch"] = false,
-	["Use New  Method Drive"] = false,
-	["Use Click M1 Fruit"] = false,
-	["Select Skills Melee"] = {
-		[1] = "X",
-		[2] = "Z"
-	},
-	["Drive Boat To Hydra"] = false,
-	["Select Owner Boat Beast Hunter"] = "",
-	["Boost Fps"] = true,
-	["Webhook Drive To Tiki/Hydra"] = false,
-	["Webhook Find Leviathan"] = true,
-	["Auto Chest Hop"] = false,
-	["Auto Craft Scroll"] = false,
-	["Account Buy Boat"] = true,
-	["Auto Store Fruit"] = false,
-	["Start Hunt Leviathan"] = true
+_G.Settings_V4 = {
+    ["LockTiers"] = 11, -- เตะตอนเทียร์เท่านั้นหรือมากกว่า ( ออโต้ปิด ระบบรีจอยในสคริปต์ ) ถ้าอยากปิด หรือตัวช่วย T10 ปรับเป็น11 / Kick when tier more than your settings ( If u not want to kick just set to 11 )
+    ["Lever"] = true, -- ออโต้ดึงคันโยก / Auto Pull Lever
+    ["InVIPServ"] = true, -- รีเซิฟให้ฟูลมูนรี / Crash when full moon end
+    ["HelperNameList"] = { -- ตัวช่วยได้ 2 ตัว / Put the helper account name
+        "amsvynxp9262",
+        "qqmhqkjb6397"
+    },
+    ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
+        "banzqema9943",
+        "suovauzj8201",
+        "ivesdjyg8756",
+        "xdly01qlrq81",
+        "zrojmapo4546",
+        "kkblszqb6498",
+        "mvsqdrqk7623",
+        "nluj14qykp38",
+        "nojl10qlvx73",
+        "wmewhzqx0570"
+    }
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
+script_key="VPjruoWjGsZylOWIsoUnvRinNgAIBoyN";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
