@@ -19,5 +19,5 @@ _G.Settings_V4 = {
         "eyvalcne5049"
     }
 }
-script_key="VPjruoWjGsZylOWIsoUnvRinNgAIBoyN";
+script_key="hZuOxUbCiWfRjhhLQzWbatEKeiMRLYzy";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
