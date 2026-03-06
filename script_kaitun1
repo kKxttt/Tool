@@ -6,6 +6,10 @@ _G.Settings_V4 = {
         "amsvynxp9262",
         "qqmhqkjb6397"
     },
+    ['RaceSettings'] = { -- รีเผ่า ต้องมีเงินม่วงพร้อมรีเท่านั้น
+        ["Enabled"] = false, -- เปิด/ปิด
+        ["RaceTarget"] = {"Mink"} -- เผ่าที่อยากให้รีได้
+    },
     ["V4FarmList"] = { -- ตัวฟาร์มใส่ได้ 10 ตัวเผ่าไม่ซ้ำตัวช่วยพอ / Put account name u want to farm v4
         "yqoosvaf4023",
         "xszfxmds4534",
@@ -17,7 +21,8 @@ _G.Settings_V4 = {
         "pwaz85maiu89",
         "awtc38lilo06",
         "fchb85cxxx16"
-    }
+    },
+    ["AutoFindFarmList"] = false -- ปรับเป็น true จะหาตัวฟาร์มเองโดยที่ไม่จำเป็นต้องเติมชื่อตัวฟาร์มลงใน V4FarmList แต่อาจจะฟาร์มช้าลงเพราะสุ่มตำแหน่งฟาร์ม
 }
 script_key="hZuOxUbCiWfRjhhLQzWbatEKeiMRLYzy";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MasterPClient/refs/heads/main/Loader.lua"))()
