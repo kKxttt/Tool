@@ -1,21 +1,21 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 
--- local players = game:GetService('Players')
+local players = game:GetService('Players')
 
--- local function check_name(name)
---     for _, value in pairs(players:GetChildren()) do
---         if tostring(value) == tostring(name) then
---             return value
---         end
---     end
--- end
+local function check_name(name)
+    for _, value in pairs(players:GetChildren()) do
+        if tostring(value) == tostring(name) then
+            return value
+        end
+    end
+end
 
--- local boat = check_name('eerwajly8288') or check_name('gejx94cjhd75')
--- repeat
---     boat = check_name('eerwajly8288') or check_name('gejx94cjhd75')
---     task.wait()
--- until boat
+local boat = check_name('eerwajly8288') or check_name('gejx94cjhd75')
+repeat
+    boat = check_name('eerwajly8288') or check_name('gejx94cjhd75')
+    task.wait()
+until boat
 
 getgenv().Key = "187409ea3183781502b80327"
 getgenv().Config = {
@@ -46,7 +46,7 @@ getgenv().Config = {
 	["Use Click M1 Fruit"] = false,
 	["Use New Method Shoot Heart"] = false,
 	["Drive Boat To Hydra"] = false,
-	["Select Owner Boat Beast Hunter"] = '',
+	["Select Owner Boat Beast Hunter"] = boat,
 	["Ping Discord"] = false,
 	["Use New  Method Drive"] = false,
 	["Webhook Find Leviathan"] = true,
