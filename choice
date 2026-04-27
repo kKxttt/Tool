@@ -9,30 +9,13 @@ print("Start script")
     -- "Xx_GamerGlitchSt0rmy",
 
 local data_script1 = {
-        "amsvynxp9262",
-        "qqmhqkjb6397",
-        "yqoosvaf4023",
-        "xszfxmds4534",
-        "mftdtrba2755",
-        "aiao05wxml32",
-        "izsc29ktwm05",
-        "gdwwzsdn8317",
-        "mamdrvds8732",
-        "pwaz85maiu89",
-        "awtc38lilo06",
-        "fchb85cxxx16"
+        "player_2",
+        "player_1"
 }
 
 local data_script2 = {
-        "zegy56ecig24",
-        "vouz77mzzy25",
-        "vdamtmgq6770",
-        "cpxrqbfc4033",
-        "qxdl85vpjb52",
-        "zykczkig0001",
-        "gdux96nbdf53",
-        "acjz79gyjv18",
-        "xlllopcp8373"
+        "player_2",
+        "player_1"
 }
 
 local data_script3 = {
